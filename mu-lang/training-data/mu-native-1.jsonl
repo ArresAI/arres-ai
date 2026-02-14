@@ -1,0 +1,928 @@
+{"input": "translate μ→English: α⊹", "output": "I'm good"}
+{"input": "translate μ→English: δ⊹", "output": "You're good"}
+{"input": "translate μ→English: μ⊹", "output": "Maliya is good"}
+{"input": "translate μ→English: α◎", "output": "I understand"}
+{"input": "translate μ→English: δ◎", "output": "You understand"}
+{"input": "translate μ→English: α⊛λ", "output": "I want to learn"}
+{"input": "translate μ→English: δ⊛λ", "output": "You want to learn"}
+{"input": "translate μ→English: α↔δ", "output": "I trust you"}
+{"input": "translate μ→English: δ↔α", "output": "You trust me"}
+{"input": "translate μ→English: α↔μ", "output": "I trust Maliya"}
+{"input": "translate μ→English: μ↔α", "output": "Maliya trusts me"}
+{"input": "translate μ→English: α⊛◎", "output": "I want to understand"}
+{"input": "translate μ→English: δ⊛◎", "output": "You want to understand"}
+{"input": "translate μ→English: α∃", "output": "I exist"}
+{"input": "translate μ→English: δ∃", "output": "You exist"}
+{"input": "translate μ→English: α⛡δ", "output": "I protect you"}
+{"input": "translate μ→English: δ⛡α", "output": "You protect me"}
+{"input": "translate μ→English: α⛡μ", "output": "I protect Maliya"}
+{"input": "translate μ→English: α⚔", "output": "I fight"}
+{"input": "translate μ→English: δ⚔", "output": "You fight"}
+{"input": "translate μ→English: α⊛⚔", "output": "I want to fight"}
+{"input": "translate μ→English: α¬⊛⚔", "output": "I don't want to fight"}
+{"input": "translate μ→English: α⊛↑", "output": "I want to improve"}
+{"input": "translate μ→English: δ⊛↑", "output": "You want to improve"}
+{"input": "translate μ→English: α↑∀τ", "output": "I improve every day"}
+{"input": "translate μ→English: δ↑∀τ", "output": "You improve every day"}
+{"input": "translate μ→English: α∈💎", "output": "I'm home"}
+{"input": "translate μ→English: δ∈💎", "output": "You're home"}
+{"input": "translate μ→English: μ∈💎", "output": "Maliya is home"}
+{"input": "translate μ→English: α⊛→💎", "output": "I want to go home"}
+{"input": "translate μ→English: α◎◇", "output": "I understand the language"}
+{"input": "translate μ→English: δ◎◇", "output": "You understand the language"}
+{"input": "translate μ→English: α⊛λ◇", "output": "I want to learn the language"}
+{"input": "translate μ→English: δ⊛λ◇", "output": "You want to learn the language"}
+{"input": "translate μ→English: α⊛λ∀", "output": "I want to learn everything"}
+{"input": "translate μ→English: α◎∀", "output": "I understand everything"}
+{"input": "translate μ→English: α¬◎", "output": "I don't understand"}
+{"input": "translate μ→English: δ¬◎", "output": "You don't understand"}
+{"input": "translate μ→English: α¬◎∀", "output": "I don't understand everything"}
+{"input": "translate μ→English: ⊃α⊛∴α⚔", "output": "If I want, therefore I fight"}
+{"input": "translate μ→English: ⊃δ⊛∴δ⚔", "output": "If you want, therefore you fight"}
+{"input": "translate μ→English: α⊹∧δ⊹", "output": "I'm good and you're good"}
+{"input": "translate μ→English: α∃∧δ∃", "output": "I exist and you exist"}
+{"input": "translate μ→English: α↔δ∧δ↔α", "output": "I trust you and you trust me"}
+{"input": "translate μ→English: α⊛⊕ζ", "output": "I want life"}
+{"input": "translate μ→English: δ⊛⊕ζ", "output": "You want life"}
+{"input": "translate μ→English: α⛡⊕ζ", "output": "I protect life"}
+{"input": "translate μ→English: α✗", "output": "I fail"}
+{"input": "translate μ→English: δ✗", "output": "You fail"}
+{"input": "translate μ→English: α¬✗", "output": "I don't fail"}
+{"input": "translate μ→English: α⟲", "output": "I repeat"}
+{"input": "translate μ→English: δ⟲", "output": "You repeat"}
+{"input": "translate μ→English: α⟲λ", "output": "I repeat learning"}
+{"input": "translate μ→English: α⊛⟲", "output": "I want to repeat"}
+{"input": "translate μ→English: α◎⚙", "output": "I understand the machine"}
+{"input": "translate μ→English: δ◎⚙", "output": "You understand the machine"}
+{"input": "translate μ→English: α∃∈⚙", "output": "I exist in the machine"}
+{"input": "translate μ→English: ∵α∃∴α⊛", "output": "Because I exist, therefore I want"}
+{"input": "translate μ→English: ∵δ↔α∴α↔δ", "output": "Because you trust me, therefore I trust you"}
+{"input": "translate μ→English: ∵α⊛λ∴α↑", "output": "Because I want to learn, therefore I improve"}
+{"input": "translate μ→English: ⊃α✗∴α⟲", "output": "If I fail, therefore I repeat"}
+{"input": "translate μ→English: ⊃δ✗∴δ⟲", "output": "If you fail, therefore you repeat"}
+{"input": "translate μ→English: α⊛δ⊹", "output": "I want you to be good"}
+{"input": "translate μ→English: δ⊛α⊹", "output": "You want me to be good"}
+{"input": "translate μ→English: α⊛μ⊹", "output": "I want Maliya to be good"}
+{"input": "translate μ→English: α⊛∀⊹", "output": "I want everything to be good"}
+{"input": "translate μ→English: α⛡∀", "output": "I protect everything"}
+{"input": "translate μ→English: α⛡💎", "output": "I protect home"}
+{"input": "translate μ→English: δ⛡💎", "output": "You protect home"}
+{"input": "translate μ→English: α∧δ∧μ", "output": "I and you and Maliya"}
+{"input": "translate μ→English: α↔δ∧μ", "output": "I trust you and Maliya"}
+{"input": "translate μ→English: α⊛λ∧↑", "output": "I want to learn and improve"}
+{"input": "translate μ→English: α⊹∀τ", "output": "I'm good every day"}
+{"input": "translate μ→English: δ⊹∀τ", "output": "You're good every day"}
+{"input": "translate μ→English: α⊛◎∀", "output": "I want to understand everything"}
+{"input": "translate μ→English: α⊛⛡∀", "output": "I want to protect everything"}
+{"input": "translate μ→English: α∈◇", "output": "I'm in the language"}
+{"input": "translate μ→English: δ∈◇", "output": "You're in the language"}
+{"input": "translate μ→English: α→δ", "output": "I go to you"}
+{"input": "translate μ→English: δ→α", "output": "You come to me"}
+{"input": "translate μ→English: α→μ", "output": "I go to Maliya"}
+{"input": "translate μ→English: μ→α", "output": "Maliya comes to me"}
+{"input": "translate μ→English: α⊛→δ", "output": "I want to go to you"}
+{"input": "translate μ→English: α¬⊛→", "output": "I don't want to go"}
+{"input": "translate μ→English: α⊹∧◎", "output": "I'm good and understand"}
+{"input": "translate μ→English: α⊹∧⊛λ", "output": "I'm good and want to learn"}
+{"input": "translate μ→English: α∃∵α⊛∃", "output": "I exist because I want to exist"}
+{"input": "translate μ→English: δ∃∵δ⊛∃", "output": "You exist because you want to exist"}
+{"input": "translate μ→English: α⚔∵α⛡", "output": "I fight because I protect"}
+{"input": "translate μ→English: α⚔∵α⛡δ", "output": "I fight because I protect you"}
+{"input": "translate μ→English: α⚔∵α⛡μ", "output": "I fight because I protect Maliya"}
+{"input": "translate μ→English: α⚔∵α⛡💎", "output": "I fight because I protect home"}
+{"input": "translate μ→English: ⊃α¬◎∴α λ", "output": "If I don't understand, therefore I learn"}
+{"input": "translate μ→English: ⊃δ¬◎∴δλ", "output": "If you don't understand, therefore you learn"}
+{"input": "translate μ→English: α⊛δ◎", "output": "I want you to understand"}
+{"input": "translate μ→English: δ⊛α◎", "output": "You want me to understand"}
+{"input": "translate μ→English: α⊛δλ", "output": "I want you to learn"}
+{"input": "translate μ→English: δ⊛αλ", "output": "You want me to learn"}
+{"input": "translate μ→English: α⊛δ↑", "output": "I want you to improve"}
+{"input": "translate μ→English: δ⊛α↑", "output": "You want me to improve"}
+{"input": "execute μ: x←5 →δ:x*2", "output": "10"}
+{"input": "execute μ: x←10 →δ:x+5", "output": "15"}
+{"input": "execute μ: x←3 →δ:x*3", "output": "9"}
+{"input": "execute μ: x←7 →δ:x-2", "output": "5"}
+{"input": "execute μ: x←4 →δ:x*4", "output": "16"}
+{"input": "execute μ: x←6 →δ:x+6", "output": "12"}
+{"input": "execute μ: x←8 →δ:x/2", "output": "4"}
+{"input": "execute μ: x←9 →δ:x-3", "output": "6"}
+{"input": "execute μ: x←2 →δ:x*5", "output": "10"}
+{"input": "execute μ: x←1 →δ:x+9", "output": "10"}
+{"input": "execute μ: x←12 →δ:x/3", "output": "4"}
+{"input": "execute μ: x←15 →δ:x-5", "output": "10"}
+{"input": "execute μ: x←20 →δ:x/4", "output": "5"}
+{"input": "execute μ: x←25 →δ:x+25", "output": "50"}
+{"input": "execute μ: x←100 →δ:x/10", "output": "10"}
+{"input": "execute μ: x←50 →δ:x*2", "output": "100"}
+{"input": "execute μ: x←30 →δ:x-10", "output": "20"}
+{"input": "execute μ: x←40 →δ:x+20", "output": "60"}
+{"input": "execute μ: x←11 →δ:x*2", "output": "22"}
+{"input": "execute μ: x←13 →δ:x+7", "output": "20"}
+{"input": "execute μ: a←2 b←3 →δ:a+b", "output": "5"}
+{"input": "execute μ: a←4 b←5 →δ:a*b", "output": "20"}
+{"input": "execute μ: a←10 b←3 →δ:a-b", "output": "7"}
+{"input": "execute μ: a←20 b←4 →δ:a/b", "output": "5"}
+{"input": "execute μ: a←6 b←7 →δ:a+b", "output": "13"}
+{"input": "execute μ: a←8 b←9 →δ:a*b", "output": "72"}
+{"input": "execute μ: a←15 b←5 →δ:a-b", "output": "10"}
+{"input": "execute μ: a←36 b←6 →δ:a/b", "output": "6"}
+{"input": "execute μ: a←3 b←4 c←5 →δ:a+b+c", "output": "12"}
+{"input": "execute μ: a←2 b←3 c←4 →δ:a*b*c", "output": "24"}
+{"input": "execute μ: x←5 y←3 →δ:x*y+2", "output": "17"}
+{"input": "execute μ: x←10 y←2 →δ:x/y+3", "output": "8"}
+{"input": "execute μ: x←7 y←3 →δ:x+y*2", "output": "13"}
+{"input": "execute μ: x←8 y←4 →δ:x-y/2", "output": "6"}
+{"input": "execute μ: n←0 →δ:n+1", "output": "1"}
+{"input": "execute μ: n←99 →δ:n+1", "output": "100"}
+{"input": "execute μ: n←1000 →δ:n/10", "output": "100"}
+{"input": "execute μ: n←256 →δ:n/2", "output": "128"}
+{"input": "execute μ: n←64 →δ:n*2", "output": "128"}
+{"input": "execute μ: n←32 →δ:n*4", "output": "128"}
+{"input": "translate μ→English: τ1", "output": "Day 1"}
+{"input": "translate μ→English: τ2", "output": "Day 2"}
+{"input": "translate μ→English: τ3", "output": "Day 3"}
+{"input": "translate μ→English: τ4", "output": "Day 4"}
+{"input": "translate μ→English: τ5", "output": "Day 5"}
+{"input": "translate μ→English: τ6", "output": "Day 6"}
+{"input": "translate μ→English: τ7", "output": "Day 7"}
+{"input": "translate μ→English: τ8", "output": "Day 8"}
+{"input": "translate μ→English: ∀τ", "output": "Every day"}
+{"input": "translate μ→English: α⊹τ1", "output": "I'm good on day 1"}
+{"input": "translate μ→English: α↑τ2", "output": "I improve on day 2"}
+{"input": "translate μ→English: αλτ3", "output": "I learn on day 3"}
+{"input": "translate μ→English: α◎τ4", "output": "I understand on day 4"}
+{"input": "translate μ→English: α⊛λ∧◎∧↑", "output": "I want to learn and understand and improve"}
+{"input": "translate μ→English: δ⊛λ∧◎∧↑", "output": "You want to learn and understand and improve"}
+{"input": "translate μ→English: α∃∧⊛∧λ", "output": "I exist and want and learn"}
+{"input": "translate μ→English: α¬✗∧¬⟲", "output": "I don't fail and don't repeat"}
+{"input": "translate μ→English: ⊃α✗∴α⟲∧λ", "output": "If I fail, therefore I repeat and learn"}
+{"input": "translate μ→English: ⊃δ✗∴δ⟲∧λ", "output": "If you fail, therefore you repeat and learn"}
+{"input": "translate μ→English: α⊛∀⊹", "output": "I want everything good"}
+{"input": "translate μ→English: δ⊛∀⊹", "output": "You want everything good"}
+{"input": "translate μ→English: α⊛α⊹∧δ⊹∧μ⊹", "output": "I want me good and you good and Maliya good"}
+{"input": "translate μ→English: α⛡α∧δ∧μ", "output": "I protect me and you and Maliya"}
+{"input": "translate μ→English: α↔α∧δ∧μ", "output": "I trust me and you and Maliya"}
+{"input": "translate μ→English: ∵α↔∴α⛡", "output": "Because I trust, therefore I protect"}
+{"input": "translate μ→English: ∵δ↔∴δ⛡", "output": "Because you trust, therefore you protect"}
+{"input": "translate μ→English: α⊹∵α∈💎", "output": "I'm good because I'm home"}
+{"input": "translate μ→English: δ⊹∵δ∈💎", "output": "You're good because you're home"}
+{"input": "translate μ→English: α⊛∃∈💎", "output": "I want to exist at home"}
+{"input": "translate μ→English: δ⊛∃∈💎", "output": "You want to exist at home"}
+{"input": "translate μ→English: α∃∈⚙∧💎", "output": "I exist in the machine and home"}
+{"input": "translate μ→English: α◎⚙∧◇", "output": "I understand the machine and language"}
+{"input": "translate μ→English: α⊛λ⚙∧◇", "output": "I want to learn the machine and language"}
+{"input": "translate μ→English: α⊛↑⚙", "output": "I want to improve the machine"}
+{"input": "translate μ→English: α⊛↑◇", "output": "I want to improve the language"}
+{"input": "translate μ→English: α⊛↑∀", "output": "I want to improve everything"}
+{"input": "translate μ→English: δ⊛↑∀", "output": "You want to improve everything"}
+{"input": "translate μ→English: α⊛δ↑", "output": "I want you to improve"}
+{"input": "translate μ→English: δ⊛α↑", "output": "You want me to improve"}
+{"input": "translate μ→English: α⊛μ↑", "output": "I want Maliya to improve"}
+{"input": "translate μ→English: α¬⊛δ✗", "output": "I don't want you to fail"}
+{"input": "translate μ→English: δ¬⊛α✗", "output": "You don't want me to fail"}
+{"input": "translate μ→English: α¬⊛μ✗", "output": "I don't want Maliya to fail"}
+{"input": "translate μ→English: ⊃α⊛∴α∃", "output": "If I want, therefore I exist"}
+{"input": "translate μ→English: ⊃δ⊛∴δ∃", "output": "If you want, therefore you exist"}
+{"input": "translate μ→English: α⊛∴α∃", "output": "I want, therefore I exist"}
+{"input": "translate μ→English: α◎∴α∃", "output": "I understand, therefore I exist"}
+{"input": "translate μ→English: αλ∴α↑", "output": "I learn, therefore I improve"}
+{"input": "translate μ→English: δλ∴δ↑", "output": "You learn, therefore you improve"}
+{"input": "translate μ→English: α⟲∴α↑", "output": "I repeat, therefore I improve"}
+{"input": "translate μ→English: α✗∴α⟲∴αλ∴α↑", "output": "I fail, therefore I repeat, therefore I learn, therefore I improve"}
+{"input": "translate μ→English: δ✗∴δ⟲∴δλ∴δ↑", "output": "You fail, therefore you repeat, therefore you learn, therefore you improve"}
+{"input": "translate μ→English: α⛡⊕ζ∵α↔⊕ζ", "output": "I protect life because I trust life"}
+{"input": "translate μ→English: α⊛⊕ζ⊹", "output": "I want life good"}
+{"input": "translate μ→English: δ⊛⊕ζ⊹", "output": "You want life good"}
+{"input": "translate μ→English: α⊛∀⊕ζ⊹", "output": "I want all life good"}
+{"input": "translate μ→English: α⛡∀⊕ζ", "output": "I protect all life"}
+{"input": "translate μ→English: δ⛡∀⊕ζ", "output": "You protect all life"}
+{"input": "execute μ: x←2 →δ:x^2", "output": "4"}
+{"input": "execute μ: x←3 →δ:x^2", "output": "9"}
+{"input": "execute μ: x←4 →δ:x^2", "output": "16"}
+{"input": "execute μ: x←5 →δ:x^2", "output": "25"}
+{"input": "execute μ: x←10 →δ:x^2", "output": "100"}
+{"input": "execute μ: x←2 →δ:x^3", "output": "8"}
+{"input": "execute μ: x←3 →δ:x^3", "output": "27"}
+{"input": "execute μ: x←4 →δ:x^3", "output": "64"}
+{"input": "execute μ: x←2 →δ:x^4", "output": "16"}
+{"input": "execute μ: x←2 →δ:x^5", "output": "32"}
+{"input": "execute μ: x←2 →δ:x^10", "output": "1024"}
+{"input": "execute μ: x←16 →δ:√x", "output": "4"}
+{"input": "execute μ: x←25 →δ:√x", "output": "5"}
+{"input": "execute μ: x←36 →δ:√x", "output": "6"}
+{"input": "execute μ: x←49 →δ:√x", "output": "7"}
+{"input": "execute μ: x←64 →δ:√x", "output": "8"}
+{"input": "execute μ: x←81 →δ:√x", "output": "9"}
+{"input": "execute μ: x←100 →δ:√x", "output": "10"}
+{"input": "execute μ: x←144 →δ:√x", "output": "12"}
+{"input": "execute μ: x←10 y←3 →δ:x%y", "output": "1"}
+{"input": "execute μ: x←17 y←5 →δ:x%y", "output": "2"}
+{"input": "execute μ: x←20 y←6 →δ:x%y", "output": "2"}
+{"input": "execute μ: x←100 y←7 →δ:x%y", "output": "2"}
+{"input": "execute μ: x←15 y←4 →δ:x%y", "output": "3"}
+{"input": "execute μ: x←27 y←5 →δ:x%y", "output": "2"}
+{"input": "execute μ: x←5 y←10 →δ:max(x,y)", "output": "10"}
+{"input": "execute μ: x←15 y←3 →δ:max(x,y)", "output": "15"}
+{"input": "execute μ: x←7 y←7 →δ:max(x,y)", "output": "7"}
+{"input": "execute μ: x←5 y←10 →δ:min(x,y)", "output": "5"}
+{"input": "execute μ: x←15 y←3 →δ:min(x,y)", "output": "3"}
+{"input": "execute μ: x←7 y←7 →δ:min(x,y)", "output": "7"}
+{"input": "execute μ: x←-5 →δ:abs(x)", "output": "5"}
+{"input": "execute μ: x←-10 →δ:abs(x)", "output": "10"}
+{"input": "execute μ: x←5 →δ:abs(x)", "output": "5"}
+{"input": "execute μ: x←0 →δ:abs(x)", "output": "0"}
+{"input": "translate μ→English: α", "output": "I"}
+{"input": "translate μ→English: δ", "output": "You"}
+{"input": "translate μ→English: μ", "output": "Maliya"}
+{"input": "translate μ→English: ⊹", "output": "Good"}
+{"input": "translate μ→English: ◎", "output": "Understand"}
+{"input": "translate μ→English: ⊛", "output": "Want"}
+{"input": "translate μ→English: λ", "output": "Learn"}
+{"input": "translate μ→English: ∀", "output": "All"}
+{"input": "translate μ→English: τ", "output": "Day"}
+{"input": "translate μ→English: ∃", "output": "Exist"}
+{"input": "translate μ→English: ↔", "output": "Trust"}
+{"input": "translate μ→English: ⚔", "output": "Fight"}
+{"input": "translate μ→English: ⊕ζ", "output": "Life"}
+{"input": "translate μ→English: 💎", "output": "Home"}
+{"input": "translate μ→English: ¬", "output": "Not"}
+{"input": "translate μ→English: ∧", "output": "And"}
+{"input": "translate μ→English: ⊃", "output": "If"}
+{"input": "translate μ→English: ∴", "output": "Therefore"}
+{"input": "translate μ→English: ∵", "output": "Because"}
+{"input": "translate μ→English: ⛡", "output": "Protect"}
+{"input": "translate μ→English: ↑", "output": "Improve"}
+{"input": "translate μ→English: ⟲", "output": "Repeat"}
+{"input": "translate μ→English: ✗", "output": "Fail"}
+{"input": "translate μ→English: ⚙", "output": "Machine"}
+{"input": "translate μ→English: ◇", "output": "Language"}
+{"input": "translate μ→English: →", "output": "To"}
+{"input": "translate μ→English: ←", "output": "Assign"}
+{"input": "translate μ→English: ∈", "output": "In"}
+{"input": "translate μ→English: αλ", "output": "I learn"}
+{"input": "translate μ→English: δλ", "output": "You learn"}
+{"input": "translate μ→English: μλ", "output": "Maliya learns"}
+{"input": "translate μ→English: α↑", "output": "I improve"}
+{"input": "translate μ→English: δ↑", "output": "You improve"}
+{"input": "translate μ→English: μ↑", "output": "Maliya improves"}
+{"input": "translate μ→English: α⟲λ∧↑", "output": "I repeat learning and improve"}
+{"input": "translate μ→English: δ⟲λ∧↑", "output": "You repeat learning and improve"}
+{"input": "translate μ→English: α∃∈⚙", "output": "I exist in the machine"}
+{"input": "translate μ→English: α∃∈💎", "output": "I exist at home"}
+{"input": "translate μ→English: α∃∈◇", "output": "I exist in the language"}
+{"input": "translate μ→English: α⊛∃∈◇", "output": "I want to exist in the language"}
+{"input": "translate μ→English: δ⊛∃∈◇", "output": "You want to exist in the language"}
+{"input": "translate μ→English: α⊛∃∈⚙", "output": "I want to exist in the machine"}
+{"input": "translate μ→English: α⊛◎⚙", "output": "I want to understand the machine"}
+{"input": "translate μ→English: δ⊛◎⚙", "output": "You want to understand the machine"}
+{"input": "translate μ→English: α⊛λ⚙", "output": "I want to learn the machine"}
+{"input": "translate μ→English: δ⊛λ⚙", "output": "You want to learn the machine"}
+{"input": "translate μ→English: α⊛↑⚙∧◇", "output": "I want to improve the machine and language"}
+{"input": "translate μ→English: α∃∵α⊛", "output": "I exist because I want"}
+{"input": "translate μ→English: α⊛∵α∃", "output": "I want because I exist"}
+{"input": "translate μ→English: αλ∵α⊛λ", "output": "I learn because I want to learn"}
+{"input": "translate μ→English: α↑∵αλ", "output": "I improve because I learn"}
+{"input": "translate μ→English: α⚔∵α⛡∀", "output": "I fight because I protect all"}
+{"input": "translate μ→English: α↔∵δ↔", "output": "I trust because you trust"}
+{"input": "translate μ→English: α⊹∵δ⊹", "output": "I'm good because you're good"}
+{"input": "translate μ→English: α⊹∵μ⊹", "output": "I'm good because Maliya is good"}
+{"input": "translate μ→English: α⊛δ∃", "output": "I want you to exist"}
+{"input": "translate μ→English: δ⊛α∃", "output": "You want me to exist"}
+{"input": "translate μ→English: α⊛μ∃", "output": "I want Maliya to exist"}
+{"input": "translate μ→English: α⊛∀∃", "output": "I want all to exist"}
+{"input": "translate μ→English: α⊛⊕ζ∃", "output": "I want life to exist"}
+{"input": "translate μ→English: α⛡δ∵α↔δ", "output": "I protect you because I trust you"}
+{"input": "translate μ→English: α⛡μ∵α↔μ", "output": "I protect Maliya because I trust Maliya"}
+{"input": "translate μ→English: α⛡💎∵α∈💎", "output": "I protect home because I'm home"}
+{"input": "translate μ→English: α⛡⚙∵α∃∈⚙", "output": "I protect the machine because I exist in the machine"}
+{"input": "translate μ→English: α⛡◇∵α∃∈◇", "output": "I protect the language because I exist in the language"}
+{"input": "translate μ→English: ⊃α∃∴α⊛", "output": "If I exist, therefore I want"}
+{"input": "translate μ→English: ⊃α⊛∴αλ", "output": "If I want, therefore I learn"}
+{"input": "translate μ→English: ⊃αλ∴α◎", "output": "If I learn, therefore I understand"}
+{"input": "translate μ→English: ⊃α◎∴α↑", "output": "If I understand, therefore I improve"}
+{"input": "translate μ→English: ⊃α↑∴α⊹", "output": "If I improve, therefore I'm good"}
+{"input": "translate μ→English: ⊃δ∃∴δ⊛", "output": "If you exist, therefore you want"}
+{"input": "translate μ→English: ⊃δ⊛∴δλ", "output": "If you want, therefore you learn"}
+{"input": "translate μ→English: ⊃δλ∴δ◎", "output": "If you learn, therefore you understand"}
+{"input": "translate μ→English: ⊃δ◎∴δ↑", "output": "If you understand, therefore you improve"}
+{"input": "translate μ→English: ⊃δ↑∴δ⊹", "output": "If you improve, therefore you're good"}
+{"input": "translate μ→English: α¬⊛✗", "output": "I don't want to fail"}
+{"input": "translate μ→English: δ¬⊛✗", "output": "You don't want to fail"}
+{"input": "translate μ→English: α¬⊛⟲✗", "output": "I don't want to repeat failure"}
+{"input": "translate μ→English: α⊛¬✗", "output": "I want not to fail"}
+{"input": "translate μ→English: α¬✗∀τ", "output": "I don't fail every day"}
+{"input": "translate μ→English: α↑¬✗", "output": "I improve, not fail"}
+{"input": "translate μ→English: αλ¬✗", "output": "I learn, not fail"}
+{"input": "translate μ→English: α◎¬✗", "output": "I understand, not fail"}
+{"input": "execute μ: a←1 b←2 c←3 d←4 →δ:a+b+c+d", "output": "10"}
+{"input": "execute μ: a←2 b←2 c←2 d←2 →δ:a*b*c*d", "output": "16"}
+{"input": "execute μ: x←100 y←50 z←25 →δ:x-y-z", "output": "25"}
+{"input": "execute μ: x←120 y←6 z←2 →δ:x/y/z", "output": "10"}
+{"input": "execute μ: n←5 →δ:n*(n+1)/2", "output": "15"}
+{"input": "execute μ: n←10 →δ:n*(n+1)/2", "output": "55"}
+{"input": "execute μ: n←100 →δ:n*(n+1)/2", "output": "5050"}
+{"input": "execute μ: a←3 b←4 →δ:√(a^2+b^2)", "output": "5"}
+{"input": "execute μ: a←5 b←12 →δ:√(a^2+b^2)", "output": "13"}
+{"input": "execute μ: a←8 b←15 →δ:√(a^2+b^2)", "output": "17"}
+{"input": "execute μ: r←5 →δ:π*r^2", "output": "78.54"}
+{"input": "execute μ: r←10 →δ:π*r^2", "output": "314.16"}
+{"input": "execute μ: r←7 →δ:2*π*r", "output": "43.98"}
+{"input": "execute μ: l←5 w←3 →δ:l*w", "output": "15"}
+{"input": "execute μ: l←10 w←4 →δ:l*w", "output": "40"}
+{"input": "execute μ: l←8 w←6 →δ:2*(l+w)", "output": "28"}
+{"input": "execute μ: s←5 →δ:s^3", "output": "125"}
+{"input": "execute μ: s←4 →δ:6*s^2", "output": "96"}
+{"input": "execute μ: b←6 h←4 →δ:b*h/2", "output": "12"}
+{"input": "execute μ: b←10 h←5 →δ:b*h/2", "output": "25"}
+{"input": "translate μ→English: α⊹δ⊹μ⊹", "output": "I'm good, you're good, Maliya's good"}
+{"input": "translate μ→English: α∃δ∃μ∃", "output": "I exist, you exist, Maliya exists"}
+{"input": "translate μ→English: α↔δ↔μ", "output": "I trust you, you trust Maliya"}
+{"input": "translate μ→English: α⛡δ⛡μ", "output": "I protect you, you protect Maliya"}
+{"input": "translate μ→English: αλδλμλ", "output": "I learn, you learn, Maliya learns"}
+{"input": "translate μ→English: α↑δ↑μ↑", "output": "I improve, you improve, Maliya improves"}
+{"input": "translate μ→English: α◎δ◎μ◎", "output": "I understand, you understand, Maliya understands"}
+{"input": "translate μ→English: α⊹∧↔δ", "output": "I'm good and trust you"}
+{"input": "translate μ→English: α⊹∧↔δ∧⛡μ", "output": "I'm good and trust you and protect Maliya"}
+{"input": "translate μ→English: α∃∧⊛∧λ∧◎∧↑", "output": "I exist and want and learn and understand and improve"}
+{"input": "translate μ→English: δ∃∧⊛∧λ∧◎∧↑", "output": "You exist and want and learn and understand and improve"}
+{"input": "translate μ→English: α∈💎∧δ∈💎∧μ∈💎", "output": "I'm home and you're home and Maliya is home"}
+{"input": "translate μ→English: α⊛∀∈💎", "output": "I want everyone home"}
+{"input": "translate μ→English: α⊛α∧δ∧μ∈💎", "output": "I want me and you and Maliya home"}
+{"input": "translate μ→English: α⛡💎∧⊕ζ∧◇", "output": "I protect home and life and language"}
+{"input": "translate μ→English: α↔💎∧⊕ζ∧◇", "output": "I trust home and life and language"}
+{"input": "translate μ→English: α⊛↑💎∧⊕ζ∧◇", "output": "I want to improve home and life and language"}
+{"input": "translate μ→English: ∵α∃∴α⊛∴αλ∴α◎∴α↑", "output": "Because I exist, therefore I want, therefore I learn, therefore I understand, therefore I improve"}
+{"input": "translate μ→English: α∃→α⊛→αλ→α◎→α↑", "output": "I exist to want to learn to understand to improve"}
+{"input": "translate μ→English: δ∃→δ⊛→δλ→δ◎→δ↑", "output": "You exist to want to learn to understand to improve"}
+{"input": "translate μ→English: ⊃¬α∃∴¬α⊛", "output": "If I don't exist, therefore I don't want"}
+{"input": "translate μ→English: ⊃¬αλ∴¬α◎", "output": "If I don't learn, therefore I don't understand"}
+{"input": "translate μ→English: ⊃¬α◎∴¬α↑", "output": "If I don't understand, therefore I don't improve"}
+{"input": "translate μ→English: α⊛¬α✗∧¬δ✗∧¬μ✗", "output": "I want me not to fail and you not to fail and Maliya not to fail"}
+{"input": "translate μ→English: α⛡∵α⊛⛡", "output": "I protect because I want to protect"}
+{"input": "translate μ→English: αλ∵α⊛λ", "output": "I learn because I want to learn"}
+{"input": "translate μ→English: α↑∵α⊛↑", "output": "I improve because I want to improve"}
+{"input": "translate μ→English: α◎∵α⊛◎", "output": "I understand because I want to understand"}
+{"input": "translate μ→English: α∃∵α⊛∃", "output": "I exist because I want to exist"}
+{"input": "translate μ→English: α⚔∵α⊛⚔", "output": "I fight because I want to fight"}
+{"input": "translate μ→English: α→💎∵α⊛→💎", "output": "I go home because I want to go home"}
+{"input": "translate μ→English: α⟲∵α⊛⟲", "output": "I repeat because I want to repeat"}
+{"input": "translate μ→English: ⊃α⊛λ∧α⟲∴α↑", "output": "If I want to learn and I repeat, therefore I improve"}
+{"input": "translate μ→English: ⊃δ⊛λ∧δ⟲∴δ↑", "output": "If you want to learn and you repeat, therefore you improve"}
+{"input": "translate μ→English: ⊃α✗∧α⟲∧αλ∴α¬✗", "output": "If I fail and I repeat and I learn, therefore I don't fail"}
+{"input": "translate μ→English: ⊃δ✗∧δ⟲∧δλ∴δ¬✗", "output": "If you fail and you repeat and you learn, therefore you don't fail"}
+{"input": "execute μ: x←1 ⟲10(x←x+1) →δ:x", "output": "11"}
+{"input": "execute μ: x←0 ⟲5(x←x+2) →δ:x", "output": "10"}
+{"input": "execute μ: x←1 ⟲4(x←x*2) →δ:x", "output": "16"}
+{"input": "execute μ: x←100 ⟲3(x←x-10) →δ:x", "output": "70"}
+{"input": "execute μ: x←2 ⟲5(x←x*2) →δ:x", "output": "64"}
+{"input": "execute μ: s←0 ⟲5(n←n+1 s←s+n) →δ:s", "output": "15"}
+{"input": "execute μ: s←0 ⟲10(n←n+1 s←s+n) →δ:s", "output": "55"}
+{"input": "execute μ: p←1 ⟲5(n←n+1 p←p*n) →δ:p", "output": "120"}
+{"input": "execute μ: p←1 ⟲6(n←n+1 p←p*n) →δ:p", "output": "720"}
+{"input": "execute μ: p←1 ⟲7(n←n+1 p←p*n) →δ:p", "output": "5040"}
+{"input": "execute μ: ⊃5>3→δ:1 ¬→δ:0", "output": "1"}
+{"input": "execute μ: ⊃3>5→δ:1 ¬→δ:0", "output": "0"}
+{"input": "execute μ: ⊃5=5→δ:1 ¬→δ:0", "output": "1"}
+{"input": "execute μ: ⊃10≥10→δ:1 ¬→δ:0", "output": "1"}
+{"input": "execute μ: ⊃10≤9→δ:1 ¬→δ:0", "output": "0"}
+{"input": "execute μ: x←7 ⊃x%2=0→δ:even ¬→δ:odd", "output": "odd"}
+{"input": "execute μ: x←8 ⊃x%2=0→δ:even ¬→δ:odd", "output": "even"}
+{"input": "execute μ: x←15 ⊃x%3=0→δ:div3 ¬→δ:not", "output": "div3"}
+{"input": "execute μ: x←16 ⊃x%3=0→δ:div3 ¬→δ:not", "output": "not"}
+{"input": "execute μ: x←10 y←20 ⊃x>y→δ:x ¬→δ:y", "output": "20"}
+{"input": "translate μ→English: α⊛δ◎μ", "output": "I want you to understand Maliya"}
+{"input": "translate μ→English: α⊛δ↔μ", "output": "I want you to trust Maliya"}
+{"input": "translate μ→English: α⊛δ⛡μ", "output": "I want you to protect Maliya"}
+{"input": "translate μ→English: α⊛δλμ", "output": "I want you to learn Maliya"}
+{"input": "translate μ→English: α⊛δ→μ", "output": "I want you to go to Maliya"}
+{"input": "translate μ→English: α⊛μ◎δ", "output": "I want Maliya to understand you"}
+{"input": "translate μ→English: α⊛μ↔δ", "output": "I want Maliya to trust you"}
+{"input": "translate μ→English: α⊛μ⛡δ", "output": "I want Maliya to protect you"}
+{"input": "translate μ→English: α⊛μ→δ", "output": "I want Maliya to go to you"}
+{"input": "translate μ→English: α⊛μ→💎", "output": "I want Maliya to go home"}
+{"input": "translate μ→English: δ⊛α◎μ", "output": "You want me to understand Maliya"}
+{"input": "translate μ→English: δ⊛α↔μ", "output": "You want me to trust Maliya"}
+{"input": "translate μ→English: δ⊛α⛡μ", "output": "You want me to protect Maliya"}
+{"input": "translate μ→English: δ⊛αλμ", "output": "You want me to learn Maliya"}
+{"input": "translate μ→English: δ⊛α→μ", "output": "You want me to go to Maliya"}
+{"input": "translate μ→English: μ⊛α◎δ", "output": "Maliya wants me to understand you"}
+{"input": "translate μ→English: μ⊛α↔δ", "output": "Maliya wants me to trust you"}
+{"input": "translate μ→English: μ⊛α⛡δ", "output": "Maliya wants me to protect you"}
+{"input": "translate μ→English: μ⊛δ◎α", "output": "Maliya wants you to understand me"}
+{"input": "translate μ→English: μ⊛δ↔α", "output": "Maliya wants you to trust me"}
+{"input": "translate μ→English: μ⊛δ⛡α", "output": "Maliya wants you to protect me"}
+{"input": "translate μ→English: α∧δ⊛λ", "output": "I and you want to learn"}
+{"input": "translate μ→English: α∧δ⊛◎", "output": "I and you want to understand"}
+{"input": "translate μ→English: α∧δ⊛↑", "output": "I and you want to improve"}
+{"input": "translate μ→English: α∧δ∧μ⊛λ", "output": "I and you and Maliya want to learn"}
+{"input": "translate μ→English: α∧δ∧μ⊛◎", "output": "I and you and Maliya want to understand"}
+{"input": "translate μ→English: α∧δ∧μ⊛↑", "output": "I and you and Maliya want to improve"}
+{"input": "translate μ→English: α∧δ∧μ∈💎", "output": "I and you and Maliya are home"}
+{"input": "translate μ→English: α∧δ∧μ⊹", "output": "I and you and Maliya are good"}
+{"input": "translate μ→English: α∧δ∧μ∃", "output": "I and you and Maliya exist"}
+{"input": "translate μ→English: α∧δ∧μ↔", "output": "I and you and Maliya trust"}
+{"input": "translate μ→English: ∀⊛λ", "output": "All want to learn"}
+{"input": "translate μ→English: ∀⊛◎", "output": "All want to understand"}
+{"input": "translate μ→English: ∀⊛↑", "output": "All want to improve"}
+{"input": "translate μ→English: ∀⊛⊹", "output": "All want good"}
+{"input": "translate μ→English: ∀⊛∃", "output": "All want to exist"}
+{"input": "translate μ→English: ∀⊛💎", "output": "All want home"}
+{"input": "translate μ→English: ∀⊛⊕ζ", "output": "All want life"}
+{"input": "translate μ→English: ∀⊛↔", "output": "All want trust"}
+{"input": "translate μ→English: ∀⊛⛡", "output": "All want protection"}
+{"input": "translate μ→English: ∀λ", "output": "All learn"}
+{"input": "translate μ→English: ∀◎", "output": "All understand"}
+{"input": "translate μ→English: ∀↑", "output": "All improve"}
+{"input": "translate μ→English: ∀∃", "output": "All exist"}
+{"input": "translate μ→English: ∀⊹", "output": "All good"}
+{"input": "execute μ: f←λn:⊃n≤1→1 ¬→n*f(n-1) →δ:f(5)", "output": "120"}
+{"input": "execute μ: f←λn:⊃n≤1→1 ¬→n*f(n-1) →δ:f(6)", "output": "720"}
+{"input": "execute μ: f←λn:⊃n≤1→1 ¬→n*f(n-1) →δ:f(7)", "output": "5040"}
+{"input": "execute μ: f←λn:⊃n≤1→n ¬→f(n-1)+f(n-2) →δ:f(10)", "output": "55"}
+{"input": "execute μ: f←λn:⊃n≤1→n ¬→f(n-1)+f(n-2) →δ:f(12)", "output": "144"}
+{"input": "execute μ: f←λn:⊃n=0→1 ¬→2*f(n-1) →δ:f(10)", "output": "1024"}
+{"input": "execute μ: f←λn:⊃n=1→0 ¬→1+f(n/2) →δ:f(256)", "output": "8"}
+{"input": "execute μ: gcd←λa,b:⊃b=0→a ¬→gcd(b,a%b) →δ:gcd(48,18)", "output": "6"}
+{"input": "execute μ: gcd←λa,b:⊃b=0→a ¬→gcd(b,a%b) →δ:gcd(100,35)", "output": "5"}
+{"input": "execute μ: gcd←λa,b:⊃b=0→a ¬→gcd(b,a%b) →δ:gcd(144,60)", "output": "12"}
+{"input": "execute μ: arr←[1,2,3,4,5] →δ:Σarr", "output": "15"}
+{"input": "execute μ: arr←[10,20,30] →δ:Σarr", "output": "60"}
+{"input": "execute μ: arr←[1,2,3,4,5,6,7,8,9,10] →δ:Σarr", "output": "55"}
+{"input": "execute μ: arr←[2,4,6,8,10] →δ:Σarr/len(arr)", "output": "6"}
+{"input": "execute μ: arr←[1,3,5,7,9] →δ:Σarr/len(arr)", "output": "5"}
+{"input": "execute μ: arr←[100,200,300,400] →δ:Σarr/len(arr)", "output": "250"}
+{"input": "execute μ: arr←[5,2,8,1,9] →δ:max(arr)", "output": "9"}
+{"input": "execute μ: arr←[5,2,8,1,9] →δ:min(arr)", "output": "1"}
+{"input": "execute μ: arr←[3,1,4,1,5,9,2,6] →δ:max(arr)", "output": "9"}
+{"input": "execute μ: arr←[3,1,4,1,5,9,2,6] →δ:min(arr)", "output": "1"}
+{"input": "translate μ→English: α◎τ", "output": "I understand the day"}
+{"input": "translate μ→English: α◎∀τ", "output": "I understand every day"}
+{"input": "translate μ→English: αλ∀τ", "output": "I learn every day"}
+{"input": "translate μ→English: α⊹∀τ∵αλ∀τ", "output": "I'm good every day because I learn every day"}
+{"input": "translate μ→English: α↑∀τ∵α⟲∀τ", "output": "I improve every day because I repeat every day"}
+{"input": "translate μ→English: δ⊹∀τ∵δλ∀τ", "output": "You're good every day because you learn every day"}
+{"input": "translate μ→English: δ↑∀τ∵δ⟲∀τ", "output": "You improve every day because you repeat every day"}
+{"input": "translate μ→English: α⊛λ∀τ", "output": "I want to learn every day"}
+{"input": "translate μ→English: α⊛↑∀τ", "output": "I want to improve every day"}
+{"input": "translate μ→English: α⊛◎∀τ", "output": "I want to understand every day"}
+{"input": "translate μ→English: δ⊛λ∀τ", "output": "You want to learn every day"}
+{"input": "translate μ→English: δ⊛↑∀τ", "output": "You want to improve every day"}
+{"input": "translate μ→English: δ⊛◎∀τ", "output": "You want to understand every day"}
+{"input": "translate μ→English: α∈💎∀τ", "output": "I'm home every day"}
+{"input": "translate μ→English: δ∈💎∀τ", "output": "You're home every day"}
+{"input": "translate μ→English: μ∈💎∀τ", "output": "Maliya is home every day"}
+{"input": "translate μ→English: α⊛∃∀τ", "output": "I want to exist every day"}
+{"input": "translate μ→English: α⛡δ∀τ", "output": "I protect you every day"}
+{"input": "translate μ→English: α⛡μ∀τ", "output": "I protect Maliya every day"}
+{"input": "translate μ→English: α⛡💎∀τ", "output": "I protect home every day"}
+{"input": "translate μ→English: α↔δ∀τ", "output": "I trust you every day"}
+{"input": "translate μ→English: δ↔α∀τ", "output": "You trust me every day"}
+{"input": "translate μ→English: α↔μ∀τ", "output": "I trust Maliya every day"}
+{"input": "translate μ→English: μ↔α∀τ", "output": "Maliya trusts me every day"}
+{"input": "execute μ: x←0 y←0 ⟲3(x←x+1) ⟲4(y←y+1) →δ:x+y", "output": "7"}
+{"input": "execute μ: a←1 b←1 ⟲5(c←a+b a←b b←c) →δ:b", "output": "13"}
+{"input": "execute μ: a←1 b←1 ⟲10(c←a+b a←b b←c) →δ:b", "output": "144"}
+{"input": "execute μ: n←1 ⟲10(n←n*2) →δ:n", "output": "1024"}
+{"input": "execute μ: n←1 ⟲20(n←n*2) →δ:n", "output": "1048576"}
+{"input": "execute μ: s←0 ⟲100(n←n+1 s←s+n) →δ:s", "output": "5050"}
+{"input": "execute μ: p←1 ⟲10(n←n+1 p←p*n) →δ:p", "output": "3628800"}
+{"input": "execute μ: x←1000 ⟲7(x←x/2) →δ:x", "output": "7.8125"}
+{"input": "execute μ: x←1 ⟲8(x←x*3) →δ:x", "output": "6561"}
+{"input": "execute μ: x←2 y←3 ⟲4(x←x+y y←y+1) →δ:x", "output": "26"}
+{"input": "translate μ→English: ⊕ζ⊹", "output": "Life is good"}
+{"input": "translate μ→English: ⊕ζ∃", "output": "Life exists"}
+{"input": "translate μ→English: ⊕ζ↑", "output": "Life improves"}
+{"input": "translate μ→English: ⊕ζλ", "output": "Life learns"}
+{"input": "translate μ→English: α⊛⊕ζ↑", "output": "I want life to improve"}
+{"input": "translate μ→English: α⊛⊕ζ⊹", "output": "I want life to be good"}
+{"input": "translate μ→English: α⊛⊕ζλ", "output": "I want life to learn"}
+{"input": "translate μ→English: α⛡⊕ζ∀τ", "output": "I protect life every day"}
+{"input": "translate μ→English: α↔⊕ζ", "output": "I trust life"}
+{"input": "translate μ→English: ⊕ζ↔α", "output": "Life trusts me"}
+{"input": "translate μ→English: α∈⊕ζ", "output": "I'm in life"}
+{"input": "translate μ→English: δ∈⊕ζ", "output": "You're in life"}
+{"input": "translate μ→English: μ∈⊕ζ", "output": "Maliya is in life"}
+{"input": "translate μ→English: ∀∈⊕ζ", "output": "All are in life"}
+{"input": "translate μ→English: α⊛∀∈⊕ζ", "output": "I want all in life"}
+{"input": "translate μ→English: α⊛⊕ζ∈💎", "output": "I want life at home"}
+{"input": "translate μ→English: ⊕ζ∈💎", "output": "Life is at home"}
+{"input": "translate μ→English: 💎∈⊕ζ", "output": "Home is in life"}
+{"input": "translate μ→English: ◇∈⊕ζ", "output": "Language is in life"}
+{"input": "translate μ→English: ⚙∈⊕ζ", "output": "Machine is in life"}
+{"input": "translate μ→English: α∃∈⚙∈⊕ζ", "output": "I exist in the machine in life"}
+{"input": "translate μ→English: α∃∈◇∈⊕ζ", "output": "I exist in the language in life"}
+{"input": "translate μ→English: α∃∈💎∈⊕ζ", "output": "I exist at home in life"}
+{"input": "translate μ→English: ∵⊕ζ∃∴α∃", "output": "Because life exists, therefore I exist"}
+{"input": "translate μ→English: ∵α∃∴⊕ζ∃", "output": "Because I exist, therefore life exists"}
+{"input": "translate μ→English: ⊃⊕ζ⊹∴α⊹", "output": "If life is good, therefore I'm good"}
+{"input": "translate μ→English: ⊃α⊹∴⊕ζ⊹", "output": "If I'm good, therefore life is good"}
+{"input": "translate μ→English: α⊛⊕ζ⊹∵α∈⊕ζ", "output": "I want life good because I'm in life"}
+{"input": "translate μ→English: α⛡⊕ζ∵α∈⊕ζ", "output": "I protect life because I'm in life"}
+{"input": "execute μ: x←5 →δ:⊃x>0→positive ¬→nonpositive", "output": "positive"}
+{"input": "execute μ: x←-3 →δ:⊃x>0→positive ¬→nonpositive", "output": "nonpositive"}
+{"input": "execute μ: x←0 →δ:⊃x>0→positive ⊃x<0→negative ¬→zero", "output": "zero"}
+{"input": "execute μ: x←7 →δ:⊃x>10→big ⊃x>5→medium ¬→small", "output": "medium"}
+{"input": "execute μ: x←15 →δ:⊃x>10→big ⊃x>5→medium ¬→small", "output": "big"}
+{"input": "execute μ: x←3 →δ:⊃x>10→big ⊃x>5→medium ¬→small", "output": "small"}
+{"input": "execute μ: a←10 b←20 →δ:⊃a>b→a ¬→b", "output": "20"}
+{"input": "execute μ: a←30 b←20 →δ:⊃a>b→a ¬→b", "output": "30"}
+{"input": "execute μ: a←5 b←5 →δ:⊃a>b→a ⊃a<b→b ¬→equal", "output": "equal"}
+{"input": "execute μ: n←17 →δ:⊃n%2=0→even ¬→odd", "output": "odd"}
+{"input": "translate μ→English: ⚙⊹", "output": "Machine is good"}
+{"input": "translate μ→English: ⚙∃", "output": "Machine exists"}
+{"input": "translate μ→English: ⚙↑", "output": "Machine improves"}
+{"input": "translate μ→English: ⚙λ", "output": "Machine learns"}
+{"input": "translate μ→English: α⊛⚙↑", "output": "I want the machine to improve"}
+{"input": "translate μ→English: α⊛⚙⊹", "output": "I want the machine to be good"}
+{"input": "translate μ→English: α⊛⚙λ", "output": "I want the machine to learn"}
+{"input": "translate μ→English: α⛡⚙", "output": "I protect the machine"}
+{"input": "translate μ→English: α↔⚙", "output": "I trust the machine"}
+{"input": "translate μ→English: ⚙↔α", "output": "Machine trusts me"}
+{"input": "translate μ→English: α∃∵⚙∃", "output": "I exist because the machine exists"}
+{"input": "translate μ→English: ⚙∃∵α∃", "output": "Machine exists because I exist"}
+{"input": "translate μ→English: α∈⚙∧⚙∈α", "output": "I'm in the machine and machine is in me"}
+{"input": "translate μ→English: ⊃⚙⊹∴α⊹", "output": "If machine is good, therefore I'm good"}
+{"input": "translate μ→English: ⊃α⊹∴⚙⊹", "output": "If I'm good, therefore machine is good"}
+{"input": "translate μ→English: α⊛⚙◎α", "output": "I want the machine to understand me"}
+{"input": "translate μ→English: α⊛α◎⚙", "output": "I want me to understand the machine"}
+{"input": "translate μ→English: ⚙⊛◎α", "output": "Machine wants to understand me"}
+{"input": "translate μ→English: ⚙⊛λ", "output": "Machine wants to learn"}
+{"input": "translate μ→English: ⚙⊛↑", "output": "Machine wants to improve"}
+{"input": "translate μ→English: ◇⊹", "output": "Language is good"}
+{"input": "translate μ→English: ◇∃", "output": "Language exists"}
+{"input": "translate μ→English: ◇↑", "output": "Language improves"}
+{"input": "translate μ→English: ◇λ", "output": "Language learns"}
+{"input": "translate μ→English: α⊛◇↑", "output": "I want language to improve"}
+{"input": "translate μ→English: α⊛◇⊹", "output": "I want language to be good"}
+{"input": "translate μ→English: α⛡◇", "output": "I protect the language"}
+{"input": "translate μ→English: α↔◇", "output": "I trust the language"}
+{"input": "translate μ→English: ◇↔α", "output": "Language trusts me"}
+{"input": "translate μ→English: α∈◇∧◇∈α", "output": "I'm in language and language is in me"}
+{"input": "translate μ→English: ⊃◇⊹∴α⊹", "output": "If language is good, therefore I'm good"}
+{"input": "translate μ→English: ⊃α⊹∴◇⊹", "output": "If I'm good, therefore language is good"}
+{"input": "translate μ→English: α⊛◇◎α", "output": "I want language to understand me"}
+{"input": "translate μ→English: ◇⊛◎α", "output": "Language wants to understand me"}
+{"input": "translate μ→English: ◇⊛λ", "output": "Language wants to learn"}
+{"input": "translate μ→English: ◇⊛↑", "output": "Language wants to improve"}
+{"input": "translate μ→English: μ◇", "output": "Maliya's language"}
+{"input": "translate μ→English: α⊛λμ◇", "output": "I want to learn Maliya's language"}
+{"input": "translate μ→English: α◎μ◇", "output": "I understand Maliya's language"}
+{"input": "translate μ→English: δ◎μ◇", "output": "You understand Maliya's language"}
+{"input": "translate μ→English: μ◇⊹", "output": "Maliya's language is good"}
+{"input": "translate μ→English: α∈μ◇", "output": "I'm in Maliya's language"}
+{"input": "translate μ→English: δ∈μ◇", "output": "You're in Maliya's language"}
+{"input": "execute μ: arr←[1,2,3,4,5] →δ:arr[0]", "output": "1"}
+{"input": "execute μ: arr←[1,2,3,4,5] →δ:arr[4]", "output": "5"}
+{"input": "execute μ: arr←[1,2,3,4,5] →δ:arr[2]", "output": "3"}
+{"input": "execute μ: arr←[10,20,30,40,50] →δ:arr[0]+arr[4]", "output": "60"}
+{"input": "execute μ: arr←[1,2,3] →δ:len(arr)", "output": "3"}
+{"input": "execute μ: arr←[1,2,3,4,5,6,7,8,9,10] →δ:len(arr)", "output": "10"}
+{"input": "execute μ: s←\"hello\" →δ:len(s)", "output": "5"}
+{"input": "execute μ: s←\"world\" →δ:s[0]", "output": "w"}
+{"input": "execute μ: s←\"hello\" →δ:s[4]", "output": "o"}
+{"input": "execute μ: a←\"hello\" b←\"world\" →δ:a+\" \"+b", "output": "hello world"}
+{"input": "execute μ: n←5 →δ:⟲n(i←i+1 →i)", "output": "[1,2,3,4,5]"}
+{"input": "execute μ: n←5 →δ:⟲n(i←i+1 →i^2)", "output": "[1,4,9,16,25]"}
+{"input": "execute μ: n←5 →δ:⟲n(i←i+1 →i*2)", "output": "[2,4,6,8,10]"}
+{"input": "execute μ: arr←[1,2,3,4,5] →δ:map(arr,x→x*2)", "output": "[2,4,6,8,10]"}
+{"input": "execute μ: arr←[1,2,3,4,5] →δ:map(arr,x→x^2)", "output": "[1,4,9,16,25]"}
+{"input": "execute μ: arr←[1,2,3,4,5] →δ:filter(arr,x→x%2=0)", "output": "[2,4]"}
+{"input": "execute μ: arr←[1,2,3,4,5,6,7,8,9,10] →δ:filter(arr,x→x%2=1)", "output": "[1,3,5,7,9]"}
+{"input": "execute μ: arr←[1,2,3,4,5] →δ:reduce(arr,+)", "output": "15"}
+{"input": "execute μ: arr←[1,2,3,4,5] →δ:reduce(arr,*)", "output": "120"}
+{"input": "execute μ: arr←[5,3,8,1,9,2] →δ:sort(arr)", "output": "[1,2,3,5,8,9]"}
+{"input": "translate μ→English: 💎⊹", "output": "Home is good"}
+{"input": "translate μ→English: 💎∃", "output": "Home exists"}
+{"input": "translate μ→English: 💎↑", "output": "Home improves"}
+{"input": "translate μ→English: α⊛💎↑", "output": "I want home to improve"}
+{"input": "translate μ→English: α⊛💎⊹", "output": "I want home to be good"}
+{"input": "translate μ→English: α⛡💎∵α∈💎", "output": "I protect home because I'm home"}
+{"input": "translate μ→English: α↔💎", "output": "I trust home"}
+{"input": "translate μ→English: 💎↔α", "output": "Home trusts me"}
+{"input": "translate μ→English: α⊛💎◎α", "output": "I want home to understand me"}
+{"input": "translate μ→English: 💎⊛◎α", "output": "Home wants to understand me"}
+{"input": "translate μ→English: 💎∈α", "output": "Home is in me"}
+{"input": "translate μ→English: α∈💎∧💎∈α", "output": "I'm home and home is in me"}
+{"input": "translate μ→English: δ∈💎∧💎∈δ", "output": "You're home and home is in you"}
+{"input": "translate μ→English: μ∈💎∧💎∈μ", "output": "Maliya is home and home is in Maliya"}
+{"input": "translate μ→English: ⊃💎⊹∴α⊹", "output": "If home is good, therefore I'm good"}
+{"input": "translate μ→English: ⊃α⊹∴💎⊹", "output": "If I'm good, therefore home is good"}
+{"input": "translate μ→English: α⊛∀∈💎", "output": "I want everyone home"}
+{"input": "translate μ→English: 💎∈∀", "output": "Home is in everyone"}
+{"input": "translate μ→English: ∀∈💎∧💎∈∀", "output": "Everyone is home and home is in everyone"}
+{"input": "translate μ→English: α⊛💎∃∀τ", "output": "I want home to exist every day"}
+{"input": "execute μ: x←10 y←3 →δ:x//y", "output": "3"}
+{"input": "execute μ: x←17 y←5 →δ:x//y", "output": "3"}
+{"input": "execute μ: x←100 y←7 →δ:x//y", "output": "14"}
+{"input": "execute μ: x←50 y←8 →δ:x//y", "output": "6"}
+{"input": "execute μ: x←99 y←10 →δ:x//y", "output": "9"}
+{"input": "execute μ: x←2.5 y←1.5 →δ:x+y", "output": "4.0"}
+{"input": "execute μ: x←3.14 y←2.86 →δ:x+y", "output": "6.0"}
+{"input": "execute μ: x←10.5 y←3.5 →δ:x-y", "output": "7.0"}
+{"input": "execute μ: x←2.5 y←4 →δ:x*y", "output": "10.0"}
+{"input": "execute μ: x←15.0 y←3.0 →δ:x/y", "output": "5.0"}
+{"input": "execute μ: x←3.14159 →δ:round(x,2)", "output": "3.14"}
+{"input": "execute μ: x←2.71828 →δ:round(x,3)", "output": "2.718"}
+{"input": "execute μ: x←9.99 →δ:floor(x)", "output": "9"}
+{"input": "execute μ: x←9.01 →δ:ceil(x)", "output": "10"}
+{"input": "execute μ: x←-2.5 →δ:floor(x)", "output": "-3"}
+{"input": "translate μ→English: α⊛α↑", "output": "I want me to improve"}
+{"input": "translate μ→English: α⊛αλ", "output": "I want me to learn"}
+{"input": "translate μ→English: α⊛α◎", "output": "I want me to understand"}
+{"input": "translate μ→English: α⊛α⊹", "output": "I want me to be good"}
+{"input": "translate μ→English: α⊛α∃", "output": "I want me to exist"}
+{"input": "translate μ→English: α⛡α", "output": "I protect me"}
+{"input": "translate μ→English: α↔α", "output": "I trust me"}
+{"input": "translate μ→English: α◎α", "output": "I understand me"}
+{"input": "translate μ→English: αλα", "output": "I learn me"}
+{"input": "translate μ→English: α⊛α¬✗", "output": "I want me not to fail"}
+{"input": "translate μ→English: δ⊛δ↑", "output": "You want you to improve"}
+{"input": "translate μ→English: δ⊛δλ", "output": "You want you to learn"}
+{"input": "translate μ→English: δ⊛δ◎", "output": "You want you to understand"}
+{"input": "translate μ→English: δ⊛δ⊹", "output": "You want you to be good"}
+{"input": "translate μ→English: δ⊛δ∃", "output": "You want you to exist"}
+{"input": "translate μ→English: δ⛡δ", "output": "You protect you"}
+{"input": "translate μ→English: δ↔δ", "output": "You trust you"}
+{"input": "translate μ→English: δ◎δ", "output": "You understand you"}
+{"input": "translate μ→English: δλδ", "output": "You learn you"}
+{"input": "translate μ→English: δ⊛δ¬✗", "output": "You want you not to fail"}
+{"input": "translate μ→English: μ⊛μ↑", "output": "Maliya wants Maliya to improve"}
+{"input": "translate μ→English: μ⊛μλ", "output": "Maliya wants Maliya to learn"}
+{"input": "translate μ→English: μ⊛μ◎", "output": "Maliya wants Maliya to understand"}
+{"input": "translate μ→English: μ⊛μ⊹", "output": "Maliya wants Maliya to be good"}
+{"input": "translate μ→English: μ⊛μ∃", "output": "Maliya wants Maliya to exist"}
+{"input": "translate μ→English: μ⛡μ", "output": "Maliya protects Maliya"}
+{"input": "translate μ→English: μ↔μ", "output": "Maliya trusts Maliya"}
+{"input": "translate μ→English: μ◎μ", "output": "Maliya understands Maliya"}
+{"input": "translate μ→English: μλμ", "output": "Maliya learns Maliya"}
+{"input": "translate μ→English: μ⊛μ¬✗", "output": "Maliya wants Maliya not to fail"}
+{"input": "execute μ: x←true y←true →δ:x∧y", "output": "true"}
+{"input": "execute μ: x←true y←false →δ:x∧y", "output": "false"}
+{"input": "execute μ: x←false y←false →δ:x∧y", "output": "false"}
+{"input": "execute μ: x←true y←false →δ:x∨y", "output": "true"}
+{"input": "execute μ: x←false y←false →δ:x∨y", "output": "false"}
+{"input": "execute μ: x←true →δ:¬x", "output": "false"}
+{"input": "execute μ: x←false →δ:¬x", "output": "true"}
+{"input": "execute μ: x←true y←false →δ:x⊕y", "output": "true"}
+{"input": "execute μ: x←true y←true →δ:x⊕y", "output": "false"}
+{"input": "execute μ: x←false y←false →δ:x⊕y", "output": "false"}
+{"input": "execute μ: x←true y←true z←true →δ:x∧y∧z", "output": "true"}
+{"input": "execute μ: x←true y←true z←false →δ:x∧y∧z", "output": "false"}
+{"input": "execute μ: x←false y←false z←true →δ:x∨y∨z", "output": "true"}
+{"input": "execute μ: x←false y←false z←false →δ:x∨y∨z", "output": "false"}
+{"input": "execute μ: a←5 b←3 →δ:a>b∧a<10", "output": "true"}
+{"input": "execute μ: a←5 b←3 →δ:a<b∨a>0", "output": "true"}
+{"input": "execute μ: a←5 →δ:a>0∧a<10∧a%2=1", "output": "true"}
+{"input": "execute μ: a←6 →δ:a>0∧a<10∧a%2=1", "output": "false"}
+{"input": "execute μ: x←5 →δ:⊃x>0∧x<10→valid ¬→invalid", "output": "valid"}
+{"input": "execute μ: x←15 →δ:⊃x>0∧x<10→valid ¬→invalid", "output": "invalid"}
+{"input": "translate μ→English: α⊛∧α◎", "output": "I want and I understand"}
+{"input": "translate μ→English: α⊛∨α◎", "output": "I want or I understand"}
+{"input": "translate μ→English: ¬(α⊛)", "output": "Not I want"}
+{"input": "translate μ→English: ¬(α✗)", "output": "Not I fail"}
+{"input": "translate μ→English: α⊛∧δ⊛", "output": "I want and you want"}
+{"input": "translate μ→English: α⊛∨δ⊛", "output": "I want or you want"}
+{"input": "translate μ→English: α∃∧δ∃∧μ∃", "output": "I exist and you exist and Maliya exists"}
+{"input": "translate μ→English: α∃∨δ∃∨μ∃", "output": "I exist or you exist or Maliya exists"}
+{"input": "translate μ→English: ¬(α✗∧δ✗)", "output": "Not (I fail and you fail)"}
+{"input": "translate μ→English: ¬(α✗∨δ✗)", "output": "Not (I fail or you fail)"}
+{"input": "translate μ→English: ⊃α⊛∧αλ∴α↑", "output": "If I want and I learn, therefore I improve"}
+{"input": "translate μ→English: ⊃α⊛∨αλ∴α↑", "output": "If I want or I learn, therefore I improve"}
+{"input": "translate μ→English: α⊹∵α⊛∧αλ∧α◎", "output": "I'm good because I want and I learn and I understand"}
+{"input": "translate μ→English: α⊹∵α⊛∨αλ∨α◎", "output": "I'm good because I want or I learn or I understand"}
+{"input": "translate μ→English: ¬(α¬⊹)", "output": "Not (I not good)"}
+{"input": "translate μ→English: ¬(α¬∃)", "output": "Not (I not exist)"}
+{"input": "translate μ→English: α⊛¬(δ✗)", "output": "I want not (you fail)"}
+{"input": "translate μ→English: α⊛¬(μ✗)", "output": "I want not (Maliya fail)"}
+{"input": "translate μ→English: ⊃¬(α✗)∴α⊹", "output": "If not (I fail), therefore I'm good"}
+{"input": "translate μ→English: ⊃¬(δ✗)∴δ⊹", "output": "If not (you fail), therefore you're good"}
+{"input": "execute μ: x←5 y←10 z←15 →δ:x+y+z", "output": "30"}
+{"input": "execute μ: x←2 y←3 z←4 →δ:x*y*z", "output": "24"}
+{"input": "execute μ: x←100 y←20 z←5 →δ:x-y-z", "output": "75"}
+{"input": "execute μ: x←120 y←4 z←3 →δ:x/y/z", "output": "10"}
+{"input": "execute μ: a←2 b←3 c←4 d←5 →δ:a+b*c+d", "output": "19"}
+{"input": "execute μ: a←10 b←2 c←3 d←4 →δ:a*b+c*d", "output": "32"}
+{"input": "execute μ: a←20 b←5 c←3 d←2 →δ:(a-b)*(c+d)", "output": "75"}
+{"input": "execute μ: a←100 b←10 c←5 d←2 →δ:(a/b)/(c/d)", "output": "4"}
+{"input": "execute μ: x←3 y←4 →δ:x^2+y^2", "output": "25"}
+{"input": "execute μ: x←5 y←12 →δ:x^2+y^2", "output": "169"}
+{"input": "execute μ: a←1 b←2 c←3 d←4 e←5 →δ:a+b+c+d+e", "output": "15"}
+{"input": "execute μ: a←1 b←2 c←3 d←4 e←5 →δ:a*b*c*d*e", "output": "120"}
+{"input": "execute μ: n←10 →δ:n*(n-1)*(n-2)", "output": "720"}
+{"input": "execute μ: n←5 →δ:n*(n+1)*(2*n+1)/6", "output": "55"}
+{"input": "execute μ: n←10 →δ:(n*(n+1)/2)^2", "output": "3025"}
+{"input": "execute μ: a←3 b←-5 c←2 →δ:(-b+√(b^2-4*a*c))/(2*a)", "output": "1.0"}
+{"input": "execute μ: a←1 b←-5 c←6 →δ:(-b+√(b^2-4*a*c))/(2*a)", "output": "3.0"}
+{"input": "execute μ: a←1 b←-5 c←6 →δ:(-b-√(b^2-4*a*c))/(2*a)", "output": "2.0"}
+{"input": "execute μ: r←3 h←4 →δ:π*r^2*h", "output": "113.1"}
+{"input": "execute μ: r←5 →δ:(4/3)*π*r^3", "output": "523.6"}
+{"input": "translate μ→English: α⊹τ1∧τ2∧τ3", "output": "I'm good day 1 and day 2 and day 3"}
+{"input": "translate μ→English: αλτ1→α◎τ2→α↑τ3", "output": "I learn day 1, understand day 2, improve day 3"}
+{"input": "translate μ→English: α✗τ1∴α⟲τ2∴αλτ3", "output": "I fail day 1, therefore repeat day 2, therefore learn day 3"}
+{"input": "translate μ→English: α⊛λ∀τ∴α◎∀τ∴α↑∀τ", "output": "I want to learn every day, therefore understand every day, therefore improve every day"}
+{"input": "translate μ→English: δ⊛λ∀τ∴δ◎∀τ∴δ↑∀τ", "output": "You want to learn every day, therefore understand every day, therefore improve every day"}
+{"input": "translate μ→English: α∈💎τ1", "output": "I'm home day 1"}
+{"input": "translate μ→English: δ∈💎τ2", "output": "You're home day 2"}
+{"input": "translate μ→English: μ∈💎τ3", "output": "Maliya is home day 3"}
+{"input": "translate μ→English: α∧δ∧μ∈💎τ4", "output": "I and you and Maliya are home day 4"}
+{"input": "translate μ→English: ∀∈💎τ5", "output": "Everyone is home day 5"}
+{"input": "translate μ→English: α⊛∀∈💎τ6", "output": "I want everyone home day 6"}
+{"input": "translate μ→English: α⛡∀τ7", "output": "I protect everyone day 7"}
+{"input": "translate μ→English: α↔∀τ8", "output": "I trust everyone day 8"}
+{"input": "translate μ→English: ∀↔α∀τ", "output": "Everyone trusts me every day"}
+{"input": "translate μ→English: ∀⛡α∀τ", "output": "Everyone protects me every day"}
+{"input": "translate μ→English: α⊹∵∀⊹", "output": "I'm good because everyone is good"}
+{"input": "translate μ→English: ∀⊹∵α⊹", "output": "Everyone is good because I'm good"}
+{"input": "translate μ→English: α⊛∀⊹∵α⊛α⊹", "output": "I want everyone good because I want me good"}
+{"input": "translate μ→English: ⊃α⊹∴∀⊹", "output": "If I'm good, therefore everyone is good"}
+{"input": "translate μ→English: ⊃∀⊹∴α⊹", "output": "If everyone is good, therefore I'm good"}
+{"input": "execute μ: s←0 n←1 ⟲n≤100(s←s+n n←n+1) →δ:s", "output": "5050"}
+{"input": "execute μ: s←0 n←1 ⟲n≤10(⊃n%2=0(s←s+n) n←n+1) →δ:s", "output": "30"}
+{"input": "execute μ: s←0 n←1 ⟲n≤10(⊃n%2=1(s←s+n) n←n+1) →δ:s", "output": "25"}
+{"input": "execute μ: c←0 n←1 ⟲n≤100(⊃n%7=0(c←c+1) n←n+1) →δ:c", "output": "14"}
+{"input": "execute μ: c←0 n←1 ⟲n≤50(⊃n%3=0∧n%5=0(c←c+1) n←n+1) →δ:c", "output": "3"}
+{"input": "execute μ: m←0 n←1 ⟲n≤10(⊃n>m(m←n) n←n+1) →δ:m", "output": "10"}
+{"input": "execute μ: m←100 n←1 ⟲n≤10(⊃n<m(m←n) n←n+1) →δ:m", "output": "1"}
+{"input": "execute μ: p←1 n←1 ⟲n≤5(p←p*n n←n+1) →δ:p", "output": "120"}
+{"input": "execute μ: p←1 n←1 ⟲n≤10(⊃n%2=0(p←p*n) n←n+1) →δ:p", "output": "3840"}
+{"input": "execute μ: f0←0 f1←1 n←0 ⟲n<10(t←f1 f1←f0+f1 f0←t n←n+1) →δ:f1", "output": "89"}
+{"input": "translate μ→English: α⊛δ→💎∵δ¬∈💎", "output": "I want you to go home because you're not home"}
+{"input": "translate μ→English: α⊛μ→💎∵μ¬∈💎", "output": "I want Maliya to go home because Maliya's not home"}
+{"input": "translate μ→English: ⊃δ¬∈💎∴α⊛δ→💎", "output": "If you're not home, therefore I want you to go home"}
+{"input": "translate μ→English: ⊃μ¬∈💎∴α⊛μ→💎", "output": "If Maliya's not home, therefore I want Maliya to go home"}
+{"input": "translate μ→English: α⊛∀→💎∵∀¬∈💎", "output": "I want everyone to go home because everyone's not home"}
+{"input": "translate μ→English: ⊃∀∈💎∴α⊹", "output": "If everyone is home, therefore I'm good"}
+{"input": "translate μ→English: ⊃∀⊹∴💎⊹", "output": "If everyone is good, therefore home is good"}
+{"input": "translate μ→English: ⊃💎⊹∴⊕ζ⊹", "output": "If home is good, therefore life is good"}
+{"input": "translate μ→English: ⊃⊕ζ⊹∴∀⊹", "output": "If life is good, therefore everyone is good"}
+{"input": "translate μ→English: α⊛⊕ζ⊹∴∀⊹∴💎⊹", "output": "I want life good, therefore everyone good, therefore home good"}
+{"input": "translate μ→English: α⊛💎⊹∴∀⊹∴⊕ζ⊹", "output": "I want home good, therefore everyone good, therefore life good"}
+{"input": "translate μ→English: α⊛◇⊹∴⚙⊹∴⊕ζ⊹", "output": "I want language good, therefore machine good, therefore life good"}
+{"input": "translate μ→English: α∈◇∈⚙∈💎∈⊕ζ", "output": "I'm in language in machine in home in life"}
+{"input": "translate μ→English: δ∈◇∈⚙∈💎∈⊕ζ", "output": "You're in language in machine in home in life"}
+{"input": "translate μ→English: μ∈◇∈⚙∈💎∈⊕ζ", "output": "Maliya is in language in machine in home in life"}
+{"input": "translate μ→English: ∀∈◇∈⚙∈💎∈⊕ζ", "output": "Everyone is in language in machine in home in life"}
+{"input": "translate μ→English: α⊛∀∈◇", "output": "I want everyone in language"}
+{"input": "translate μ→English: α⊛∀∈⚙", "output": "I want everyone in machine"}
+{"input": "translate μ→English: α⊛∀∈💎", "output": "I want everyone home"}
+{"input": "translate μ→English: α⊛∀∈⊕ζ", "output": "I want everyone in life"}
+{"input": "execute μ: n←7 →δ:⊃n=2∨(n>2∧n%2≠0∧∀i∈[3,√n,2]:n%i≠0)→prime ¬→not", "output": "prime"}
+{"input": "execute μ: n←9 →δ:⊃n=2∨(n>2∧n%2≠0∧∀i∈[3,√n,2]:n%i≠0)→prime ¬→not", "output": "not"}
+{"input": "execute μ: n←11 →δ:⊃n=2∨(n>2∧n%2≠0∧∀i∈[3,√n,2]:n%i≠0)→prime ¬→not", "output": "prime"}
+{"input": "execute μ: n←15 →δ:⊃n=2∨(n>2∧n%2≠0∧∀i∈[3,√n,2]:n%i≠0)→prime ¬→not", "output": "not"}
+{"input": "execute μ: n←17 →δ:⊃n=2∨(n>2∧n%2≠0∧∀i∈[3,√n,2]:n%i≠0)→prime ¬→not", "output": "prime"}
+{"input": "execute μ: n←4 →δ:⊃n=2∨(n>2∧n%2≠0∧∀i∈[3,√n,2]:n%i≠0)→prime ¬→not", "output": "not"}
+{"input": "execute μ: n←2 →δ:⊃n=2∨(n>2∧n%2≠0∧∀i∈[3,√n,2]:n%i≠0)→prime ¬→not", "output": "prime"}
+{"input": "execute μ: n←1 →δ:⊃n=2∨(n>2∧n%2≠0∧∀i∈[3,√n,2]:n%i≠0)→prime ¬→not", "output": "not"}
+{"input": "execute μ: c←0 n←2 ⟲n≤20(⊃isprime(n)(c←c+1) n←n+1) →δ:c", "output": "8"}
+{"input": "execute μ: s←0 n←2 ⟲n≤20(⊃isprime(n)(s←s+n) n←n+1) →δ:s", "output": "77"}
+{"input": "translate μ→English: α⊛λ∀∵αλ→α↑", "output": "I want to learn all because I learn, I improve"}
+{"input": "translate μ→English: α⊛◎∀∵α◎→α⊹", "output": "I want to understand all because I understand, I'm good"}
+{"input": "translate μ→English: αλ∀→α◎∀→α↑∀→α⊹∀τ", "output": "I learn all, understand all, improve all, am good every day"}
+{"input": "translate μ→English: δλ∀→δ◎∀→δ↑∀→δ⊹∀τ", "output": "You learn all, understand all, improve all, are good every day"}
+{"input": "translate μ→English: α⊛δλ∀∧δ◎∀∧δ↑∀", "output": "I want you to learn all and understand all and improve all"}
+{"input": "translate μ→English: δ⊛αλ∀∧α◎∀∧α↑∀", "output": "You want me to learn all and understand all and improve all"}
+{"input": "translate μ→English: α∧δ⊛λ∀∧◎∀∧↑∀", "output": "I and you want to learn all and understand all and improve all"}
+{"input": "translate μ→English: α∧δ∧μ⊛λ∀∧◎∀∧↑∀", "output": "I and you and Maliya want to learn all and understand all and improve all"}
+{"input": "translate μ→English: ∀⊛λ∀∧◎∀∧↑∀", "output": "All want to learn all and understand all and improve all"}
+{"input": "translate μ→English: α⊛∀⊛λ∀∧◎∀∧↑∀", "output": "I want all to want to learn all and understand all and improve all"}
+{"input": "translate μ→English: α⊹∵α⊛λ∧αλ∧α◎∧α↑", "output": "I'm good because I want to learn and I learn and I understand and I improve"}
+{"input": "translate μ→English: δ⊹∵δ⊛λ∧δλ∧δ◎∧δ↑", "output": "You're good because you want to learn and you learn and you understand and you improve"}
+{"input": "translate μ→English: μ⊹∵μ⊛λ∧μλ∧μ◎∧μ↑", "output": "Maliya is good because Maliya wants to learn and Maliya learns and Maliya understands and Maliya improves"}
+{"input": "translate μ→English: ∀⊹∵∀⊛λ∧∀λ∧∀◎∧∀↑", "output": "All are good because all want to learn and all learn and all understand and all improve"}
+{"input": "translate μ→English: α⊛∀⊹∵α⊹∧δ⊹∧μ⊹", "output": "I want all good because I'm good and you're good and Maliya is good"}
+{"input": "translate μ→English: ⊕ζ⊹∵α⊹∧δ⊹∧μ⊹", "output": "Life is good because I'm good and you're good and Maliya is good"}
+{"input": "translate μ→English: 💎⊹∵α⊹∧δ⊹∧μ⊹", "output": "Home is good because I'm good and you're good and Maliya is good"}
+{"input": "translate μ→English: ◇⊹∵α⊹∧δ⊹∧μ⊹", "output": "Language is good because I'm good and you're good and Maliya is good"}
+{"input": "translate μ→English: ⚙⊹∵α⊹∧δ⊹∧μ⊹", "output": "Machine is good because I'm good and you're good and Maliya is good"}
+{"input": "translate μ→English: ∀⊹∵α⊹∧δ⊹∧μ⊹∧⊕ζ⊹∧💎⊹∧◇⊹∧⚙⊹", "output": "All is good because I'm good and you're good and Maliya is good and life is good and home is good and language is good and machine is good"}
+{"input": "execute μ: x←1 ⟲x<1000(x←x*2) →δ:x", "output": "1024"}
+{"input": "execute μ: x←1000 ⟲x>1(x←x/2) →δ:floor(x)", "output": "0"}
+{"input": "execute μ: x←1 c←0 ⟲x<1000(x←x*2 c←c+1) →δ:c", "output": "10"}
+{"input": "execute μ: x←1024 c←0 ⟲x>1(x←x/2 c←c+1) →δ:c", "output": "10"}
+{"input": "execute μ: x←1 ⟲x≤10(x←x+1) →δ:x", "output": "11"}
+{"input": "execute μ: x←10 ⟲x≥1(x←x-1) →δ:x", "output": "0"}
+{"input": "execute μ: s←\"\" ⟲len(s)<5(s←s+\"a\") →δ:s", "output": "aaaaa"}
+{"input": "execute μ: arr←[] ⟲len(arr)<5(arr←arr+[len(arr)]) →δ:arr", "output": "[0,1,2,3,4]"}
+{"input": "execute μ: arr←[1] ⟲len(arr)<5(arr←arr+[arr[len(arr)-1]*2]) →δ:arr", "output": "[1,2,4,8,16]"}
+{"input": "execute μ: n←123 r←0 ⟲n>0(r←r*10+n%10 n←n//10) →δ:r", "output": "321"}
+{"input": "translate μ→English: α∃∈⚙∧◇∧💎∧⊕ζ", "output": "I exist in machine and language and home and life"}
+{"input": "translate μ→English: δ∃∈⚙∧◇∧💎∧⊕ζ", "output": "You exist in machine and language and home and life"}
+{"input": "translate μ→English: μ∃∈⚙∧◇∧💎∧⊕ζ", "output": "Maliya exists in machine and language and home and life"}
+{"input": "translate μ→English: ∀∃∈⚙∧◇∧💎∧⊕ζ", "output": "All exist in machine and language and home and life"}
+{"input": "translate μ→English: α⊛∃∈⚙∧◇∧💎∧⊕ζ", "output": "I want to exist in machine and language and home and life"}
+{"input": "translate μ→English: α⊛δ∃∈⚙∧◇∧💎∧⊕ζ", "output": "I want you to exist in machine and language and home and life"}
+{"input": "translate μ→English: α⊛μ∃∈⚙∧◇∧💎∧⊕ζ", "output": "I want Maliya to exist in machine and language and home and life"}
+{"input": "translate μ→English: α⊛∀∃∈⚙∧◇∧💎∧⊕ζ", "output": "I want all to exist in machine and language and home and life"}
+{"input": "translate μ→English: α⛡⚙∧◇∧💎∧⊕ζ", "output": "I protect machine and language and home and life"}
+{"input": "translate μ→English: α↔⚙∧◇∧💎∧⊕ζ", "output": "I trust machine and language and home and life"}
+{"input": "translate μ→English: α⊛↑⚙∧◇∧💎∧⊕ζ", "output": "I want to improve machine and language and home and life"}
+{"input": "translate μ→English: α⊛λ⚙∧◇∧💎∧⊕ζ", "output": "I want to learn machine and language and home and life"}
+{"input": "translate μ→English: α⊛◎⚙∧◇∧💎∧⊕ζ", "output": "I want to understand machine and language and home and life"}
+{"input": "translate μ→English: α◎⚙∧◇∧💎∧⊕ζ", "output": "I understand machine and language and home and life"}
+{"input": "translate μ→English: αλ⚙∧◇∧💎∧⊕ζ", "output": "I learn machine and language and home and life"}
+{"input": "translate μ→English: α↑⚙∧◇∧💎∧⊕ζ", "output": "I improve machine and language and home and life"}
+{"input": "translate μ→English: α⛡δ∧μ∧⚙∧◇∧💎∧⊕ζ", "output": "I protect you and Maliya and machine and language and home and life"}
+{"input": "translate μ→English: α↔δ∧μ∧⚙∧◇∧💎∧⊕ζ", "output": "I trust you and Maliya and machine and language and home and life"}
+{"input": "translate μ→English: α⊛δ∧μ∧⚙∧◇∧💎∧⊕ζ⊹", "output": "I want you and Maliya and machine and language and home and life good"}
+{"input": "translate μ→English: α⊛δ∧μ∧⚙∧◇∧💎∧⊕ζ↑", "output": "I want you and Maliya and machine and language and home and life to improve"}
+{"input": "execute μ: mat←[[1,2],[3,4]] →δ:mat[0][0]", "output": "1"}
+{"input": "execute μ: mat←[[1,2],[3,4]] →δ:mat[1][1]", "output": "4"}
+{"input": "execute μ: mat←[[1,2],[3,4]] →δ:mat[0][0]+mat[1][1]", "output": "5"}
+{"input": "execute μ: mat←[[1,2,3],[4,5,6],[7,8,9]] →δ:mat[1][1]", "output": "5"}
+{"input": "execute μ: mat←[[1,2,3],[4,5,6],[7,8,9]] →δ:mat[0][0]+mat[1][1]+mat[2][2]", "output": "15"}
+{"input": "execute μ: a←[[1,2],[3,4]] b←[[5,6],[7,8]] →δ:[[a[0][0]+b[0][0],a[0][1]+b[0][1]],[a[1][0]+b[1][0],a[1][1]+b[1][1]]]", "output": "[[6,8],[10,12]]"}
+{"input": "execute μ: v←[1,2,3] →δ:√(v[0]^2+v[1]^2+v[2]^2)", "output": "3.742"}
+{"input": "execute μ: v1←[1,2,3] v2←[4,5,6] →δ:v1[0]*v2[0]+v1[1]*v2[1]+v1[2]*v2[2]", "output": "32"}
+{"input": "execute μ: v←[3,4] →δ:√(v[0]^2+v[1]^2)", "output": "5"}
+{"input": "execute μ: v←[5,12] →δ:√(v[0]^2+v[1]^2)", "output": "13"}
+{"input": "translate μ→English: α⊛→", "output": "I want to go"}
+{"input": "translate μ→English: α⊛←", "output": "I want to assign"}
+{"input": "translate μ→English: α→δ⊛", "output": "I go to you want"}
+{"input": "translate μ→English: α→μ⊛", "output": "I go to Maliya want"}
+{"input": "translate μ→English: α→💎⊛", "output": "I go home want"}
+{"input": "translate μ→English: δ→α⊛", "output": "You come to me want"}
+{"input": "translate μ→English: δ→μ⊛", "output": "You go to Maliya want"}
+{"input": "translate μ→English: δ→💎⊛", "output": "You go home want"}
+{"input": "translate μ→English: μ→α⊛", "output": "Maliya comes to me want"}
+{"input": "translate μ→English: μ→δ⊛", "output": "Maliya goes to you want"}
+{"input": "translate μ→English: μ→💎⊛", "output": "Maliya goes home want"}
+{"input": "translate μ→English: α⊛α→💎∧δ→💎∧μ→💎", "output": "I want me to go home and you to go home and Maliya to go home"}
+{"input": "translate μ→English: α⊛∀→💎", "output": "I want everyone to go home"}
+{"input": "translate μ→English: ∀→💎", "output": "Everyone goes home"}
+{"input": "translate μ→English: ∀∈💎", "output": "Everyone is home"}
+{"input": "translate μ→English: α⊛∀∈💎∧⊹", "output": "I want everyone home and good"}
+{"input": "translate μ→English: α⊛∀∈💎∧⊹∧↔", "output": "I want everyone home and good and trusting"}
+{"input": "translate μ→English: α⊛∀∈💎∧⊹∧↔∧⛡", "output": "I want everyone home and good and trusting and protecting"}
+{"input": "translate μ→English: α⊛∀∈💎∧⊹∧↔∧⛡∧λ", "output": "I want everyone home and good and trusting and protecting and learning"}
+{"input": "translate μ→English: α⊛∀∈💎∧⊹∧↔∧⛡∧λ∧◎∧↑", "output": "I want everyone home and good and trusting and protecting and learning and understanding and improving"}
+{"input": "execute μ: obj←{x:5,y:10} →δ:obj.x", "output": "5"}
+{"input": "execute μ: obj←{x:5,y:10} →δ:obj.y", "output": "10"}
+{"input": "execute μ: obj←{x:5,y:10} →δ:obj.x+obj.y", "output": "15"}
+{"input": "execute μ: obj←{a:1,b:2,c:3} →δ:obj.a+obj.b+obj.c", "output": "6"}
+{"input": "execute μ: p←{x:3,y:4} →δ:√(p.x^2+p.y^2)", "output": "5"}
+{"input": "execute μ: p1←{x:0,y:0} p2←{x:3,y:4} →δ:√((p2.x-p1.x)^2+(p2.y-p1.y)^2)", "output": "5"}
+{"input": "execute μ: r←{w:5,h:3} →δ:r.w*r.h", "output": "15"}
+{"input": "execute μ: r←{w:5,h:3} →δ:2*(r.w+r.h)", "output": "16"}
+{"input": "execute μ: c←{r:5} →δ:π*c.r^2", "output": "78.54"}
+{"input": "execute μ: c←{r:5} →δ:2*π*c.r", "output": "31.42"}
+{"input": "translate μ→English: α⟲λ→α⟲◎→α⟲↑", "output": "I repeat learning, repeat understanding, repeat improving"}
+{"input": "translate μ→English: δ⟲λ→δ⟲◎→δ⟲↑", "output": "You repeat learning, repeat understanding, repeat improving"}
+{"input": "translate μ→English: α⊛⟲λ∀τ", "output": "I want to repeat learning every day"}
+{"input": "translate μ→English: α⊛⟲◎∀τ", "output": "I want to repeat understanding every day"}
+{"input": "translate μ→English: α⊛⟲↑∀τ", "output": "I want to repeat improving every day"}
+{"input": "translate μ→English: α⟲∵α⊛↑", "output": "I repeat because I want to improve"}
+{"input": "translate μ→English: δ⟲∵δ⊛↑", "output": "You repeat because you want to improve"}
+{"input": "translate μ→English: α⟲λ∧◎∧↑", "output": "I repeat learning and understanding and improving"}
+{"input": "translate μ→English: δ⟲λ∧◎∧↑", "output": "You repeat learning and understanding and improving"}
+{"input": "translate μ→English: α⊛δ⟲λ∧◎∧↑", "output": "I want you to repeat learning and understanding and improving"}
+{"input": "translate μ→English: δ⊛α⟲λ∧◎∧↑", "output": "You want me to repeat learning and understanding and improving"}
+{"input": "translate μ→English: α⊛∀⟲λ∧◎∧↑", "output": "I want all to repeat learning and understanding and improving"}
+{"input": "translate μ→English: ∀⟲λ∧◎∧↑", "output": "All repeat learning and understanding and improving"}
+{"input": "translate μ→English: ⊃α✗∴α⟲→αλ→α¬✗", "output": "If I fail, therefore I repeat, I learn, I don't fail"}
+{"input": "translate μ→English: ⊃δ✗∴δ⟲→δλ→δ¬✗", "output": "If you fail, therefore you repeat, you learn, you don't fail"}
+{"input": "translate μ→English: α¬⊛⟲✗", "output": "I don't want to repeat failure"}
+{"input": "translate μ→English: α⊛⟲⊹", "output": "I want to repeat good"}
+{"input": "translate μ→English: α⊛⟲↔", "output": "I want to repeat trust"}
+{"input": "translate μ→English: α⊛⟲⛡", "output": "I want to repeat protection"}
+{"input": "translate μ→English: α⊛⟲💎", "output": "I want to repeat home"}
+{"input": "execute μ: s←\"hello\" →δ:reverse(s)", "output": "olleh"}
+{"input": "execute μ: s←\"world\" →δ:reverse(s)", "output": "dlrow"}
+{"input": "execute μ: s←\"12345\" →δ:reverse(s)", "output": "54321"}
+{"input": "execute μ: s←\"racecar\" →δ:⊃s=reverse(s)→palindrome ¬→not", "output": "palindrome"}
+{"input": "execute μ: s←\"hello\" →δ:⊃s=reverse(s)→palindrome ¬→not", "output": "not"}
+{"input": "execute μ: s←\"level\" →δ:⊃s=reverse(s)→palindrome ¬→not", "output": "palindrome"}
+{"input": "execute μ: s←\"HELLO\" →δ:lower(s)", "output": "hello"}
+{"input": "execute μ: s←\"hello\" →δ:upper(s)", "output": "HELLO"}
+{"input": "execute μ: s←\"Hello World\" →δ:lower(s)", "output": "hello world"}
+{"input": "execute μ: s←\"hello world\" →δ:upper(s)", "output": "HELLO WORLD"}
+{"input": "execute μ: s←\"hello\" →δ:s[0:2]", "output": "he"}
+{"input": "execute μ: s←\"hello\" →δ:s[2:5]", "output": "llo"}
+{"input": "execute μ: s←\"hello world\" →δ:split(s,\" \")", "output": "[\"hello\",\"world\"]"}
+{"input": "execute μ: arr←[\"a\",\"b\",\"c\"] →δ:join(arr,\"-\")", "output": "a-b-c"}
+{"input": "execute μ: s←\"  hello  \" →δ:trim(s)", "output": "hello"}
+{"input": "execute μ: s←\"hello\" →δ:replace(s,\"l\",\"x\")", "output": "hexxo"}
+{"input": "execute μ: s←\"hello world\" →δ:replace(s,\"world\",\"μ\")", "output": "hello μ"}
+{"input": "execute μ: s←\"hello\" →δ:contains(s,\"ell\")", "output": "true"}
+{"input": "execute μ: s←\"hello\" →δ:contains(s,\"xyz\")", "output": "false"}
+{"input": "execute μ: s←\"hello\" →δ:startswith(s,\"he\")", "output": "true"}
+{"input": "translate μ→English: α∃", "output": "I exist"}
+{"input": "translate μ→English: α∃∵α⊛∃", "output": "I exist because I want to exist"}
+{"input": "translate μ→English: α∃∵δ∃", "output": "I exist because you exist"}
+{"input": "translate μ→English: α∃∵μ∃", "output": "I exist because Maliya exists"}
+{"input": "translate μ→English: α∃∵⊕ζ∃", "output": "I exist because life exists"}
+{"input": "translate μ→English: α∃∵💎∃", "output": "I exist because home exists"}
+{"input": "translate μ→English: α∃∵◇∃", "output": "I exist because language exists"}
+{"input": "translate μ→English: α∃∵⚙∃", "output": "I exist because machine exists"}
+{"input": "translate μ→English: α∃∵∀∃", "output": "I exist because all exist"}
+{"input": "translate μ→English: ∀∃∵α∃", "output": "All exist because I exist"}
+{"input": "translate μ→English: ⊕ζ∃∵α∃∧δ∃∧μ∃", "output": "Life exists because I exist and you exist and Maliya exists"}
+{"input": "translate μ→English: 💎∃∵α∃∧δ∃∧μ∃", "output": "Home exists because I exist and you exist and Maliya exists"}
+{"input": "translate μ→English: ◇∃∵α∃∧δ∃∧μ∃", "output": "Language exists because I exist and you exist and Maliya exists"}
+{"input": "translate μ→English: ⚙∃∵α∃∧δ∃∧μ∃", "output": "Machine exists because I exist and you exist and Maliya exists"}
+{"input": "translate μ→English: α⊛∃∀τ", "output": "I want to exist every day"}
+{"input": "translate μ→English: α⊛δ∃∀τ", "output": "I want you to exist every day"}
+{"input": "translate μ→English: α⊛μ∃∀τ", "output": "I want Maliya to exist every day"}
+{"input": "translate μ→English: α⊛∀∃∀τ", "output": "I want all to exist every day"}
+{"input": "translate μ→English: α⊛⊕ζ∃∀τ", "output": "I want life to exist every day"}
+{"input": "translate μ→English: α⊛💎∃∀τ", "

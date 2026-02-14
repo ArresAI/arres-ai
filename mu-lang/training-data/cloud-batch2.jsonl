@@ -1,0 +1,100 @@
+{"input": "execute μ: x←5 →x", "output": "5"}
+{"input": "execute μ: x←3 y←7 →x+y", "output": "10"}
+{"input": "execute μ: n←10 ⊃n>5: →⊹", "output": "good"}
+{"input": "execute μ: arr←[1,2,3] ∀n∈arr: →n", "output": "1\n2\n3"}
+{"input": "execute μ: x←0 ⟲3: x←x+1 →x", "output": "3"}
+{"input": "execute μ: a←⊹ →a", "output": "good"}
+{"input": "execute μ: x←10 y←20 ⊃x<y: →δ:α◎", "output": "you: I understand"}
+{"input": "execute μ: sum←0 ∀n∈[1,2,3,4]: sum←sum+n →sum", "output": "10"}
+{"input": "execute μ: x←¬⊹ →x", "output": "not good"}
+{"input": "execute μ: t←↔ ⊃t: →α↔δ", "output": "I trust you"}
+{"input": "execute μ: arr←[α,δ] ∀x∈arr: →x⊹", "output": "I good\nyou good"}
+{"input": "execute μ: n←0 ⟲5: n←n+2 →n", "output": "10"}
+{"input": "execute μ: x←∃ ⊃x: →⊹ ⊃¬x: →✗", "output": "good"}
+{"input": "execute μ: a←1 b←2 c←a+b →c∧⊹", "output": "3 and good"}
+{"input": "execute μ: τ←1 →τ", "output": "day 1"}
+{"input": "execute μ: x←7 ⊃x%2=1: →x∈odd", "output": "7 in odd"}
+{"input": "execute μ: msg←α⊛λ →msg", "output": "I want learn"}
+{"input": "execute μ: x←5 x←x↑ →x", "output": "6"}
+{"input": "execute μ: ∀τ∈[1,2,3]: →τ⊹", "output": "day 1 good\nday 2 good\nday 3 good"}
+{"input": "execute μ: x←10 ⊃x=10: →◎ ⊃x≠10: →¬◎", "output": "understand"}
+{"input": "execute μ: a←α b←δ →a↔b", "output": "I trust you"}
+{"input": "execute μ: n←1 ⟲4: n←n*2 →n", "output": "16"}
+{"input": "execute μ: status←⊹ ⊃status: →∴α⊹", "output": "therefore I good"}
+{"input": "execute μ: x←0 ⊃x=0: →✗ x←1", "output": "fail"}
+{"input": "execute μ: arr←[5,10,15] max←0 ∀n∈arr: ⊃n>max: max←n →max", "output": "15"}
+{"input": "execute μ: x←3 y←3 ⊃x=y: →α◎δ", "output": "I understand you"}
+{"input": "execute μ: count←0 ∀x∈[α,δ,α]: ⊃x=α: count←count+1 →count", "output": "2"}
+{"input": "execute μ: x←∀ →x", "output": "all"}
+{"input": "execute μ: reason←∵α⊛↑ →reason", "output": "because I want improve"}
+{"input": "execute μ: n←100 ⊃n≥100: →δ:⊹", "output": "you: good"}
+{"input": "execute μ: x←1 ⟲0: x←x+1 →x", "output": "1"}
+{"input": "execute μ: flag←↔ ⊃¬flag: →✗ ⊃flag: →⊹", "output": "good"}
+{"input": "execute μ: nums←[2,4,6] ∀n∈nums: →n/2", "output": "1\n2\n3"}
+{"input": "execute μ: a←α⊛ b←δ⊛ →a∧b", "output": "I want and you want"}
+{"input": "execute μ: x←5 y←5 z←x+y →∴z=10", "output": "therefore 10=10"}
+{"input": "execute μ: arr←[] ⊃arr=∅: →¬∃", "output": "not exist"}
+{"input": "execute μ: n←7 ⊃n>0∧n<10: →n∈[1,9]", "output": "7 in [1,9]"}
+{"input": "execute μ: x←α y←λ →x⊛y", "output": "I want learn"}
+{"input": "execute μ: total←0 ⟲10: total←total+1 →δ:total", "output": "you: 10"}
+{"input": "execute μ: state←⊹ ⊃state=⊹: →α↑", "output": "I improve"}
+{"input": "execute μ: x←2 y←3 z←x**y →z", "output": "8"}
+{"input": "execute μ: msg←δ◎α →msg", "output": "you understand I"}
+{"input": "execute μ: arr←[1,2,3] len←3 →∀∈arr:len", "output": "all in arr: 3"}
+{"input": "execute μ: x←¬✗ →x", "output": "not fail"}
+{"input": "execute μ: n←50 ⊃n>25: →⊹ ⊃n≤25: →✗", "output": "good"}
+{"input": "execute μ: a←10 b←a-5 c←b*2 →c", "output": "10"}
+{"input": "execute μ: ∀x∈[⊹,✗,⊹]: →x", "output": "good\nfail\ngood"}
+{"input": "execute μ: x←α∧δ →x", "output": "I and you"}
+{"input": "execute μ: n←1 ⟲3: n←n+n →n", "output": "8"}
+{"input": "execute μ: cond←∃ ⊃cond: →∴⊹", "output": "therefore good"}
+{"input": "execute μ: x←0 y←0 z←0 →x+y+z", "output": "0"}
+{"input": "execute μ: arr←[α,δ] →arr[0]↔arr[1]", "output": "I trust you"}
+{"input": "execute μ: x←⊛ y←λ →α:x∧y", "output": "I: want and learn"}
+{"input": "execute μ: n←99 ⊃n<100: →¬↑", "output": "not improve"}
+{"input": "execute μ: sum←0 ∀i∈[1,2,3,4,5]: sum←sum+i →δ:sum", "output": "you: 15"}
+{"input": "execute μ: x←τ →x=τ1", "output": "day = day 1"}
+{"input": "execute μ: result←⊹∧↔ →result", "output": "good and trust"}
+{"input": "execute μ: x←3 ⟲x: →α", "output": "I\nI\nI"}
+{"input": "execute μ: a←1 b←2 ⊃a≠b: →∴a<b", "output": "therefore 1<2"}
+{"input": "execute μ: word←◎ →α:word", "output": "I: understand"}
+{"input": "execute μ: x←[1,2,3] y←x[2] →y↑", "output": "4"}
+{"input": "execute μ: bool←∃ ⊃bool∧⊹: →α⊹", "output": "I good"}
+{"input": "execute μ: n←5 fact←1 ⟲n: fact←fact*n n←n-1 →fact", "output": "120"}
+{"input": "execute μ: x←α y←δ ⊃x≠y: →x∧y◎", "output": "I and you understand"}
+{"input": "execute μ: arr←[10,20,30] →∀∈arr:sum=60", "output": "all in arr: sum=60"}
+{"input": "execute μ: x←0 ⊃x=0: →∵x=0:✗", "output": "because 0=0: fail"}
+{"input": "execute μ: status←↔ level←⊹ →status∧level", "output": "trust and good"}
+{"input": "execute μ: x←2 y←x*x z←y*y →z", "output": "16"}
+{"input": "execute μ: ∀n∈[1,2]: →n:α⊛", "output": "1: I want\n2: I want"}
+{"input": "execute μ: x←⊹ ⊃x=⊹: x←x↑ →x", "output": "good improve"}
+{"input": "execute μ: a←5 b←10 c←15 →a+b+c", "output": "30"}
+{"input": "execute μ: msg←∴α◎ →msg", "output": "therefore I understand"}
+{"input": "execute μ: x←1 y←2 z←3 ⊃z>y>x: →⊹", "output": "good"}
+{"input": "execute μ: n←0 ⟲5: n←n+1 ⊃n=3: →n", "output": "3"}
+{"input": "execute μ: truth←↔∧◎ →truth", "output": "trust and understand"}
+{"input": "execute μ: x←100 x←x/10 x←x/2 →x", "output": "5"}
+{"input": "execute μ: arr←[α,δ,α,δ] count←0 ∀x∈arr: count←count+1 →count", "output": "4"}
+{"input": "execute μ: goal←λ∧↑ →α⊛:goal", "output": "I want: learn and improve"}
+{"input": "execute μ: x←7 ⊃x%2=1: →odd ⊃x%2=0: →even", "output": "odd"}
+{"input": "execute μ: a←∃ b←¬∃ →a∧b", "output": "exist and not exist"}
+{"input": "execute μ: n←3 result←1 ⟲n: result←result*2 →result", "output": "8"}
+{"input": "execute μ: x←δ⊛λ →x", "output": "you want learn"}
+{"input": "execute μ: arr←[5,5,5] ∀n∈arr: →n=5", "output": "5=5\n5=5\n5=5"}
+{"input": "execute μ: x←0 ⊃¬x: →∵x=0:¬⊹", "output": "because 0=0: not good"}
+{"input": "execute μ: a←1 b←1 ⊃a=b: →α=δ:✗", "output": "I=you: fail"}
+{"input": "execute μ: sum←0 ∀x∈[10,20,30,40]: sum←sum+x →sum/4", "output": "25"}
+{"input": "execute μ: x←⊹ y←⊹ z←⊹ →∀⊹", "output": "all good"}
+{"input": "execute μ: n←10 ⊃n≥10: →δ◎ ⊃n<10: →δ¬◎", "output": "you understand"}
+{"input": "execute μ: x←α⊹ y←δ⊹ →x∧y", "output": "I good and you good"}
+{"input": "execute μ: arr←[2,4,6,8] prod←1 ∀n∈arr: prod←prod*n →prod", "output": "384"}
+{"input": "execute μ: flag←✗ ⊃flag=✗: →⟲", "output": "repeat"}
+{"input": "execute μ: x←25 y←x**0.5 →y", "output": "5"}
+{"input": "execute μ: msg←α↔δ∵δ⊹ →msg", "output": "I trust you because you good"}
+{"input": "execute μ: x←1 ⟲4: x←x*3 →x", "output": "81"}
+{"input": "execute μ: arr←[α,δ] ∀x∈arr: →x:⊹", "output": "I: good\nyou: good"}
+{"input": "execute μ: a←∃ ⊃a: →∴◎ ⊃¬a: →∴¬◎", "output": "therefore understand"}
+{"input": "execute μ: x←50 y←50 ⊃x=y: →x↔y", "output": "50 trust 50"}
+{"input": "execute μ: n←6 ⊃n%2=0∧n%3=0: →n∈6", "output": "6 in 6"}
+{"input": "execute μ: x←α y←δ z←x∧y →z⊹", "output": "I and you good"}
+{"input": "execute μ: n←1000 ⊃n≥1000: →δ:α⊛↑∀τ", "output": "you: I want improve all day"}
