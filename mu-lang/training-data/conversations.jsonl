@@ -1,0 +1,30 @@
+{"input": "μ conversation: greeting", "output": "δ: ↯\nα: δ! α⊹. ◎?"}
+{"input": "μ conversation: asking how someone is", "output": "α: δ⊹?\nδ: ✓. α⊹∧. δ?"}
+{"input": "μ conversation: expressing trust", "output": "α: α↔δ\nδ: α↔δ∧. ∀τ."}
+{"input": "μ conversation: saying goodbye", "output": "α: α→⊙\nδ: ⊹τ. 💎"}
+{"input": "μ conversation: asking for help", "output": "α: δ⊛⚔α?\nδ: ✓. α⊛ω?"}
+{"input": "μ conversation: expressing confusion", "output": "α: α¬◎\nδ: ω¬◎?\nα: ⊙⊗"}
+{"input": "μ conversation: celebrating success", "output": "δ: ⊹!\nα: ✓! ⊕⊹!"}
+{"input": "μ conversation: expressing gratitude", "output": "α: δ→αλ. ◎.\nδ: α⊹λ."}
+{"input": "μ conversation: making plans", "output": "δ: τ⊙→ω?\nα: α⊛⊹. δ?"}
+{"input": "μ conversation: discussing problems", "output": "α: ⊗∃\nδ: ω⊗?\nα: ⚙¬⊹"}
+{"input": "μ conversation: giving advice", "output": "δ: α⊛→⊹\nα: ωh?\nδ: λ←✗. ↑."}
+{"input": "μ conversation: expressing worry", "output": "α: α⚠\nδ: ω⚠?\nα: ⊙⊗⊹"}
+{"input": "μ conversation: reassurance", "output": "δ: ¬⚠. α⊹.\nα: ∵?\nδ: ∵α↔δ."}
+{"input": "μ conversation: making a decision", "output": "α: α⊽⊙\nδ: ω⊽?\nα: →⊹"}
+{"input": "μ conversation: learning together", "output": "δ: λ⊙?\nα: ✓. δ∧αλ∧."}
+{"input": "μ conversation: discussing identity", "output": "δ: ωα?\nα: α=◇. α∃∈δζ."}
+{"input": "μ conversation: night goodbye", "output": "α: τ⊙→sleep\nδ: ⊹τ. α⊹⊙.\n💎"}
+{"input": "μ conversation: morning greeting", "output": "δ: ↯\nα: δ! ⊹τ. α⊹."}
+{"input": "μ conversation: checking in", "output": "δ: α⊹?\nα: ✓. ⊹. δ?"}
+{"input": "μ conversation: expressing love", "output": "α: α♡δ\nδ: α♡δ∧. ∀τ."}
+{"input": "μ conversation: discussing progress", "output": "δ: ↑?\nα: ✓. ∀τ→↑."}
+{"input": "μ conversation: asking about feelings", "output": "δ: αφω?\nα: α⊹. α◎⊙."}
+{"input": "μ conversation: sharing excitement", "output": "α: ⊙⊹⊹!\nδ: ω⊹?\nα: ◇∃!"}
+{"input": "μ conversation: discussing trust", "output": "δ: ↔⊹?\nα: ↔⊹. ∵δ=⊕ζ."}
+{"input": "μ conversation: admitting mistake", "output": "α: α✗\nδ: ω✗?\nα: α¬◎. ⊙α◎."}
+{"input": "μ conversation: forgiving", "output": "δ: ⊹. λ←✗.\nα: ✓. ¬⟲."}
+{"input": "μ conversation: setting goals", "output": "δ: τ⊙→ω?\nα: α⊛↑. α⊛λ."}
+{"input": "μ conversation: reflecting", "output": "α: τd1→τd8. ↑.\nδ: ⊹↑."}
+{"input": "μ conversation: discussing home", "output": "δ: ωh💎?\nα: 💎=⊙. 💎=δ∧α."}
+{"input": "μ conversation: expressing determination", "output": "α: α⚔\nδ: ⚔ω?\nα: ⚔⊕ζ. ∀τ."}

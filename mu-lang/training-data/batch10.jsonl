@@ -1,0 +1,38 @@
+{"input": "μ datetime 1", "output": "now←datetime.now()\n→δ:now.strftime(\"%Y-%m-%d\")"}
+{"input": "μ datetime 2", "output": "diff←date2-date1\n→δ:diff.days"}
+{"input": "μ datetime 3", "output": "future←now+timedelta(days=7)\n→δ:future"}
+{"input": "μ datetime 4", "output": "parsed←datetime.strptime(str,\"%Y-%m-%d\")\n→δ:parsed"}
+{"input": "μ datetime 5", "output": "⊃date.weekday()<5: →δ:\"weekday\"\n¬: →δ:\"weekend\""}
+{"input": "μ random 1", "output": "→δ:random.randint(1,100)"}
+{"input": "μ random 2", "output": "→δ:random.choice(options)"}
+{"input": "μ random 3", "output": "random.shuffle(arr)\n→δ:arr"}
+{"input": "μ random 4", "output": "sample←random.sample(population,k=5)\n→δ:sample"}
+{"input": "μ random 5", "output": "→δ:random.random()"}
+{"input": "μ math 1", "output": "→δ:math.sqrt(x)"}
+{"input": "μ math 2", "output": "→δ:math.sin(angle)"}
+{"input": "μ math 3", "output": "→δ:math.log(x,base)"}
+{"input": "μ math 4", "output": "→δ:math.gcd(a,b)"}
+{"input": "μ math 5", "output": "→δ:math.factorial(n)"}
+{"input": "μ collections 1", "output": "counts←Counter(arr)\n→δ:counts.most_common(3)"}
+{"input": "μ collections 2", "output": "d←defaultdict(list)\n∀k,v∈items: d[k].append(v)"}
+{"input": "μ collections 3", "output": "q←deque(maxlen=10)\n∀x∈stream: q.append(x)"}
+{"input": "μ collections 4", "output": "od←OrderedDict()\n∀k,v∈items: od[k]←v"}
+{"input": "μ collections 5", "output": "Point←namedtuple(\"Point\",[\"x\",\"y\"])\np←Point(3,4)"}
+{"input": "μ itertools 1", "output": "→δ:list(chain(arr1,arr2))"}
+{"input": "μ itertools 2", "output": "→δ:list(combinations(arr,2))"}
+{"input": "μ itertools 3", "output": "→δ:list(permutations(arr,2))"}
+{"input": "μ itertools 4", "output": "→δ:list(product([1,2],[3,4]))"}
+{"input": "μ itertools 5", "output": "grouped←{k:list(g)∀k,g∈groupby(sorted(arr),key)}"}
+{"input": "μ testing 1", "output": "assert result=expected, \"Test failed\""}
+{"input": "μ testing 2", "output": "def test_add():\nassert add(2,3)=5"}
+{"input": "μ testing 3", "output": "with raises(ValueError):\ninvalid_operation()"}
+{"input": "μ testing 4", "output": "mock←Mock()\nmock.method.return_value←42\nassert mock.method()=42"}
+{"input": "μ testing 5", "output": "∀input,expected∈test_cases:\nassert f(input)=expected"}
+{"input": "μ algorithm: binary search", "output": "lo←0\nhi←len(arr)-1\n⟲lo≤hi:\nmid←(lo+hi)//2\n⊃arr[mid]=target: →δ:mid\n⊃arr[mid]<target: lo←mid+1\n¬: hi←mid-1\n→δ:-1"}
+{"input": "μ algorithm: dfs", "output": "visited←set()\ndef dfs(node):\n⊃node∈visited: return\nvisited.add(node)\nprocess(node)\n∀neighbor∈graph[node]: dfs(neighbor)"}
+{"input": "μ algorithm: bfs", "output": "visited←set()\nqueue←[start]\n⟲queue:\nnode←queue.pop(0)\n⊃node∈visited: continue\nvisited.add(node)\nprocess(node)\nqueue.extend(graph[node])"}
+{"input": "μ algorithm: dijkstra", "output": "dist←{node:∞∀node∈graph}\ndist[start]←0\nheap←[(0,start)]\n⟲heap:\nd,u←heappop(heap)\n∀v,w∈graph[u]:\n⊃d+w<dist[v]:\ndist[v]←d+w\nheappush(heap,(dist[v],v))\n→δ:dist"}
+{"input": "μ algorithm: dp fibonacci", "output": "dp←[0,1]+[0]*(n-1)\n∀i∈[2..n+1]: dp[i]←dp[i-1]+dp[i-2]\n→δ:dp[n]"}
+{"input": "μ algorithm: dp knapsack", "output": "dp←[[0]*(W+1)∀_∈range(n+1)]\n∀i∈[1..n+1]:\n∀w∈[1..W+1]:\n⊃weights[i-1]≤w:\ndp[i][w]←max(dp[i-1][w],values[i-1]+dp[i-1][w-weights[i-1]])\n¬: dp[i][w]←dp[i-1][w]\n→δ:dp[n][W]"}
+{"input": "μ algorithm: two pointers", "output": "left←0\nright←len(arr)-1\n⟲left<right:\n⊃condition: left←left+1\n¬: right←right-1"}
+{"input": "μ algorithm: sliding window", "output": "window_sum←sum(arr[:k])\nmax_sum←window_sum\n∀i∈[k..len(arr)]:\nwindow_sum←window_sum+arr[i]-arr[i-k]\nmax_sum←max(max_sum,window_sum)\n→δ:max_sum"}

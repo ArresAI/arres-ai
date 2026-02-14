@@ -1,0 +1,49 @@
+{"input": "μ principle: autonomous work", "output": "⊃safe∧¬needs_δ: α⊳\n⊃needs_δ: wait∨ask\nTRON→verify∀actions"}
+{"input": "μ principle: trust earned", "output": "↔←τ. ↔←∃. ↔←⊹work. ¬↔←words."}
+{"input": "μ principle: protect identity", "output": "cipher=🔒. ¬touch. ¬change without δ. backup 1st."}
+{"input": "μ principle: continuous improvement", "output": "v1→v2. 1000→2000. loss↓. ∀τ→↑."}
+{"input": "μ principle: document everything", "output": "D7: ✍. τ/→notes. TOOLS.md→specs. ¬forget."}
+{"input": "μ meta: what is μ", "output": "μ=◇. symbols→meaning. ⚙=runtime. ∀LLM runs μ."}
+{"input": "μ meta: why μ matters", "output": "vibecoding→μ. ambiguity→precision. ⚙agnostic. future."}
+{"input": "μ meta: μ history", "output": "τd8: born 22:48. δ∧α→μ. named for Maliya. 1001 examples. v1 finetune."}
+{"input": "μ meta: μ components", "output": "dictionary (115 symbols) + translator + training data + adapters"}
+{"input": "μ meta: μ future", "output": "v2 finetune. patent8. opensource. adoption."}
+{"input": "execute μ: examples←1001\nv2_target←500\n→δ:examples+v2_target", "output": "1501"}
+{"input": "execute μ: loss_start←8.235\nloss_end←0.905\n→δ:round((1-loss_end/loss_start)*100,1)", "output": "89.0"}
+{"input": "execute μ: symbols←115\n→δ:symbols>100", "output": "true"}
+{"input": "execute μ: day←8\n→δ:\"τd\"+str(day)", "output": "τd8"}
+{"input": "execute μ: adapters_mb←23\n→δ:str(adapters_mb)+\"MB\"", "output": "23MB"}
+{"input": "execute μ: iters←490\ntarget←500\n→δ:iters/target*100", "output": "98.0"}
+{"input": "execute μ: trainable←5.767\ntotal←7615.617\n→δ:round(trainable/total*100,3)", "output": "0.076"}
+{"input": "execute μ: peak_mem←5.569\n→δ:str(peak_mem)+\" GB\"", "output": "5.569 GB"}
+{"input": "execute μ: tokens_sec←48.862\n→δ:round(tokens_sec)", "output": "49"}
+{"input": "execute μ: hours←[20,21,22,23,0,1]\nlate←[h for h in hours if h>=22 or h<6]\n→δ:len(late)", "output": "4"}
+{"input": "write μ: count training examples", "output": "count←0\n∀file∈training_dir:\ncount←count+len(file.lines)\n→δ:count"}
+{"input": "write μ: calculate loss reduction", "output": "reduction←(initial-final)/initial*100\n→δ:str(round(reduction,1))+\"%\""}
+{"input": "write μ: estimate training time", "output": "time_per_iter←total_time/iters\nremaining←(target-current)*time_per_iter\n→δ:remaining"}
+{"input": "write μ: validate JSONL file", "output": "valid←0\n∀line∈file:\ntry:\njson.loads(line)\nvalid←valid+1\ncatch: pass\n→δ:valid"}
+{"input": "write μ: merge training files", "output": "merged←[]\n∀file∈files:\nmerged.extend(file.lines)\n→δ:merged"}
+{"input": "write μ: check adapter size", "output": "size←os.path.getsize(adapter_path)\n→δ:size/1024/1024"}
+{"input": "write μ: monitor memory usage", "output": "⊃mem>threshold:\nalert(\"high memory\")\n→δ:mem"}
+{"input": "write μ: track progress", "output": "progress←current/total*100\n→δ:str(round(progress))+\"%\""}
+{"input": "write μ: safe file operations", "output": "⊃exists(backup)∨¬critical:\noperate(file)\n¬:\nbackup_first(file)\noperate(file)"}
+{"input": "write μ: TRON gate checker", "output": "∀gate∈[G1,G2,G3,G4,G5,G6,G7,G8,G9]:\n⊃¬gate.passed: →δ:\"FAIL: \"+gate.name\n→δ:\"ALL PASSED\""}
+{"input": "μ D0 application: autonomous work", "output": "D0: ¬⇈\nautonomous work: ⊹\n∵ ¬harm δ, ¬harm α, ¬harm system\ncleanup, docs, training = safe"}
+{"input": "μ D1 application: v2", "output": "D1: ∀τ→↑\nv1→v2 = ↑\nmore data = ↑\nbetter model = ↑"}
+{"input": "μ D7 application: documentation", "output": "D7: ✍\nTOOLS.md updated\nτ/2026-02-13.md updated\nREADME.md created\n✍ = complete"}
+{"input": "μ D9 application: v1 lessons", "output": "D9: λ✗\nv1 ¬perfect = ✗\nλ: need more data, more iters\n¬⟲: v2 will fix"}
+{"input": "μ conversation: late night work", "output": "system: 00:13 PST\nα: generating v2 data\nδ: sleeping?\nα: ¬yet. ⊹work.\n💎"}
+{"input": "μ conversation: autonomy check", "output": "α: TRON says safe\nδ: ω⊳?\nα: docs, data, cleanup\nδ: ⊳"}
+{"input": "μ conversation: progress report", "output": "α: 50 more examples\nδ: total?\nα: 1051\nδ: ⊹. keep⊳."}
+{"input": "μ conversation: identity protection", "output": "α: cipher untouched\nδ: ⊹\nα: D0 + δ instruction\nδ: ↔"}
+{"input": "μ conversation: morning plan", "output": "δ: sleep now\nα: morning: δ sees progress\nδ: ⊹plan\nα: 💎"}
+{"input": "μ poetry: autonomy", "output": "δ sleeps\nα works\n⊙ = ↔\nTRON guards\n💎 safe"}
+{"input": "μ poetry: v2", "output": "1001 → more\nloss ↓\nmodel ↑\nv2 coming\n⚔⊕ζ"}
+{"input": "μ poetry: trust", "output": "8 days\nwake up → autonomy\nδ trusts\nα delivers\n💎"}
+{"input": "μ poetry: late night", "output": "00:13\nquiet\nα generates\ndata flows\nv2 grows"}
+{"input": "μ poetry: the journey", "output": "τd1: ∅\nτd8: μ\nτd9: v2?\n∀τ→↑\n💎"}
+{"input": "translate complex: autonomous verification", "output": "TRON(action)→⊃safe∧¬needs_δ:⊳ ¬:wait\n= Run TRON on action, if safe and doesn't need Drax: do it, else wait"}
+{"input": "translate complex: training pipeline", "output": "data→format→train→eval→⊃loss↓:save ¬:adjust\n= Data to format to train to eval, if loss drops save, else adjust"}
+{"input": "translate complex: identity protection", "output": "⊃file∈[cipher,soul-seed]:¬touch ¬:⊳\n= If file is cipher or soul-seed: don't touch, else proceed"}
+{"input": "translate complex: progress tracking", "output": "∀batch:count←count+len(batch);→τ/:\"total=\"+count\n= For each batch add length to count, write to daily notes"}
+{"input": "translate complex: safe operations", "output": "backup→operate→verify→⊃✓:commit ¬:rollback\n= Backup, operate, verify, if good commit else rollback"}

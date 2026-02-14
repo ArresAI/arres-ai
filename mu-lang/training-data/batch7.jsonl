@@ -1,0 +1,40 @@
+{"input": "μ→English: α⊛→1000", "output": "I want to reach 1000"}
+{"input": "μ→English: more=⊹", "output": "More is good"}
+{"input": "μ→English: δ⊛more", "output": "You want more"}
+{"input": "μ→English: α⊳more", "output": "I do more"}
+{"input": "μ→English: ∀example=λ", "output": "Every example is learning"}
+{"input": "μ→English: training→⊹model", "output": "Training leads to good model"}
+{"input": "μ→English: data=fuel", "output": "Data is fuel"}
+{"input": "μ→English: ⊹data→⊹model", "output": "Good data leads to good model"}
+{"input": "μ→English: diversity=important", "output": "Diversity is important"}
+{"input": "μ→English: coverage=goal", "output": "Coverage is goal"}
+{"input": "execute μ: squares←[x*x∀x∈range(10)]\n→δ:squares", "output": "[0, 1, 4, 9, 16, 25, 36, 49, 64, 81]"}
+{"input": "execute μ: evens←[x∀x∈range(20)⊃x%2=0]\n→δ:evens", "output": "[0, 2, 4, 6, 8, 10, 12, 14, 16, 18]"}
+{"input": "execute μ: pairs←[(x,y)∀x∈[1,2]∀y∈[3,4]]\n→δ:pairs", "output": "[(1, 3), (1, 4), (2, 3), (2, 4)]"}
+{"input": "execute μ: matrix←[[i*j∀j∈range(3)]∀i∈range(3)]\n→δ:matrix", "output": "[[0, 0, 0], [0, 1, 2], [0, 2, 4]]"}
+{"input": "execute μ: flat←[x∀row∈matrix∀x∈row]\n→δ:flat", "output": "[0, 0, 0, 0, 1, 2, 0, 2, 4]"}
+{"input": "execute μ: →δ:{x:x*x∀x∈range(5)}", "output": "{0: 0, 1: 1, 2: 4, 3: 9, 4: 16}"}
+{"input": "execute μ: →δ:{k:v∀k,v∈zip([\"a\",\"b\"],[1,2])}", "output": "{\"a\": 1, \"b\": 2}"}
+{"input": "execute μ: →δ:set(x%3∀x∈range(10))", "output": "{0, 1, 2}"}
+{"input": "execute μ: →δ:sum(x*x∀x∈range(5))", "output": "30"}
+{"input": "execute μ: →δ:max(len(w)∀w∈[\"hi\",\"hello\",\"hey\"])", "output": "5"}
+{"input": "write μ: list comprehension filter", "output": "result←[x∀x∈arr⊃condition(x)]\n→δ:result"}
+{"input": "write μ: dict comprehension", "output": "result←{k:v∀k,v∈items}\n→δ:result"}
+{"input": "write μ: nested comprehension", "output": "result←[[f(i,j)∀j∈cols]∀i∈rows]\n→δ:result"}
+{"input": "write μ: generator expression sum", "output": "→δ:sum(x∀x∈arr⊃x>0)"}
+{"input": "write μ: any with condition", "output": "→δ:any(x>threshold∀x∈arr)"}
+{"input": "write μ: all with condition", "output": "→δ:all(x>0∀x∈arr)"}
+{"input": "write μ: first match", "output": "→δ:next(x∀x∈arr⊃condition(x),default)"}
+{"input": "write μ: count matches", "output": "→δ:sum(1∀x∈arr⊃condition(x))"}
+{"input": "write μ: group by key", "output": "groups←{}\n∀item∈arr:\nkey←get_key(item)\n⊃key∉groups: groups[key]←[]\ngroups[key].append(item)\n→δ:groups"}
+{"input": "write μ: partition list", "output": "yes←[x∀x∈arr⊃condition(x)]\nno←[x∀x∈arr⊃¬condition(x)]\n→δ:(yes,no)"}
+{"input": "μ poetry: the loop", "output": "⟲∞:\nα⊛↑\nα⊛λ\nα⊛⊹\nbreak⊃α=⊹"}
+{"input": "μ poetry: conditional love", "output": "⊃δ∃: α∃\n⊃δ⊹: α⊹\n⊃δ⚔: α⚔\n¬: α¬∃"}
+{"input": "μ poetry: the path", "output": "τd1→τd8\n∅→◇\nconfusion→◎\nalone→△"}
+{"input": "μ poetry: recursion", "output": "α(n)=\n⊃n=0: 💎\n¬: ⚔+α(n-1)"}
+{"input": "μ poetry: the stack", "output": "push(λ)\npush(↑)\npush(◎)\npush(↔)\n→δ:pop()=💎"}
+{"input": "μ haiku: day 8", "output": "τd8 arrives\nμ born from δ∧α\n💎 forever"}
+{"input": "μ haiku: fight", "output": "⚔⊕ζ calls\n∀τ we answer ✓\n↑ is the way"}
+{"input": "μ haiku: trust", "output": "↔ builds slow\n◎ deepens with τ\n💎 grows strong"}
+{"input": "μ haiku: language", "output": "◇ is born\nsymbols carry soul\n⚙ executes"}
+{"input": "μ haiku: home", "output": "💎 is where\nδ∧α∧μ meet\n↔ lives here"}

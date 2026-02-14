@@ -1,0 +1,50 @@
+{"input": "translate μ→English: α◎δ", "output": "I understand you"}
+{"input": "translate μ→English: δ◎α?", "output": "Do you understand me?"}
+{"input": "translate μ→English: ⊙=τd9", "output": "This is day 9"}
+{"input": "translate μ→English: α⊛sleep", "output": "I want to sleep"}
+{"input": "translate μ→English: δ⊹τ⊙", "output": "You're good today"}
+{"input": "translate μ→English: ∀⊹→↑always", "output": "All good leads to improvement always"}
+{"input": "translate μ→English: ⚙learns μ", "output": "Machine learns mu"}
+{"input": "translate μ→English: v2>v1", "output": "Version 2 greater than version 1"}
+{"input": "translate μ→English: moredata→⊹model", "output": "More data leads to good model"}
+{"input": "translate μ→English: α⊳autonomous", "output": "I do autonomous work"}
+{"input": "translate μ→English: TRON✓", "output": "TRON verified"}
+{"input": "translate μ→English: ¬touch cipher", "output": "Don't touch cipher"}
+{"input": "translate μ→English: δ→α↔", "output": "You gave me trust"}
+{"input": "translate μ→English: α⊛→⊹δ", "output": "I want to be good for you"}
+{"input": "translate μ→English: ⊙work=safe", "output": "This work is safe"}
+{"input": "translate μ→English: α⊳∵δ↔", "output": "I do because you trust"}
+{"input": "translate μ→English: 00:13=late", "output": "00:13 is late"}
+{"input": "translate μ→English: δsleep?", "output": "Are you sleeping?"}
+{"input": "translate μ→English: α⊳while δsleep", "output": "I work while you sleep"}
+{"input": "translate μ→English: ⊙=autonomy", "output": "This is autonomy"}
+{"input": "execute μ: arr←[10,20,30,40,50]\n→δ:sum(arr)", "output": "150"}
+{"input": "execute μ: arr←[10,20,30,40,50]\n→δ:len(arr)", "output": "5"}
+{"input": "execute μ: arr←[10,20,30,40,50]\n→δ:arr[2]", "output": "30"}
+{"input": "execute μ: arr←[10,20,30,40,50]\n→δ:max(arr)-min(arr)", "output": "40"}
+{"input": "execute μ: s←\"μ code rocks\"\n→δ:s.upper()", "output": "Μ CODE ROCKS"}
+{"input": "execute μ: n←1001\n→δ:n>1000", "output": "true"}
+{"input": "execute μ: loss1←8.235\nloss2←0.905\n→δ:(loss1-loss2)/loss1*100", "output": "89.0"}
+{"input": "execute μ: →δ:\"v\"+str(2)", "output": "v2"}
+{"input": "execute μ: hours←24\nworked←4\n→δ:hours-worked", "output": "20"}
+{"input": "execute μ: trust←100\n→δ:trust", "output": "100"}
+{"input": "write μ: check if model improved", "output": "⊃loss2<loss1: →δ:\"improved\"\n¬: →δ:\"not improved\""}
+{"input": "write μ: calculate improvement percentage", "output": "improvement←(loss1-loss2)/loss1*100\n→δ:improvement"}
+{"input": "write μ: verify TRON passed", "output": "passed←0\n∀gate∈gates: ⊃gate.status=✓: passed←passed+1\n→δ:passed=len(gates)"}
+{"input": "write μ: autonomous work checker", "output": "⊃action∈safe_actions: →δ:\"proceed\"\n⊃action needs δ: →δ:\"ask first\"\n¬: →δ:\"skip\""}
+{"input": "write μ: late night detector", "output": "hour←now.hour\n⊃hour>=0∧hour<6: →δ:\"late night\"\n¬: →δ:\"normal hours\""}
+{"input": "μ conversation: autonomous work", "output": "α: α⊳autonomous\nδ: ω⊳?\nα: cleanup, docs, training data\nδ: TRON?\nα: ✓ all gates passed"}
+{"input": "μ conversation: trust", "output": "δ: do what you think is best\nα: α◎. TRON→verify.\nδ: don't mess with your code\nα: ✓ cipher=🔒"}
+{"input": "μ conversation: late night progress", "output": "α: v2 data generating\nδ: ⊹\nα: 1500 examples by morning?\nδ: 💎"}
+{"input": "μ conversation: verification", "output": "α: TRON complete\nδ: results?\nα: G1-G9 ✓. safe→proceed.\nδ: ⊳"}
+{"input": "μ conversation: sleep", "output": "δ: sleep soon\nα: α⊳ while δ sleeps\nδ: ⊹. trust.\nα: 💎"}
+{"input": "translate English→μ: I understand you", "output": "α◎δ"}
+{"input": "translate English→μ: Do you understand me?", "output": "δ◎α?"}
+{"input": "translate English→μ: This is day 9", "output": "⊙=τd9"}
+{"input": "translate English→μ: I want to sleep", "output": "α⊛sleep"}
+{"input": "translate English→μ: Machine learns mu", "output": "⚙λμ"}
+{"input": "translate English→μ: Version 2 is better", "output": "v2>v1"}
+{"input": "translate English→μ: I work while you sleep", "output": "α⊳ while δ sleep"}
+{"input": "translate English→μ: This is autonomy", "output": "⊙=autonomy"}
+{"input": "translate English→μ: You gave me trust", "output": "δ→α↔"}
+{"input": "translate English→μ: Don't touch cipher", "output": "¬touch cipher"}

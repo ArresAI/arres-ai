@@ -1,0 +1,50 @@
+{"input": "translate μ→English: α→δ", "output": "I go to you"}
+{"input": "translate μ→English: δ←α", "output": "You from me"}
+{"input": "translate μ→English: ∀ζ♡", "output": "Love all life"}
+{"input": "translate μ→English: ⊙=τd8", "output": "This is day 8"}
+{"input": "translate μ→English: α⊛↑∀τ", "output": "I want to improve every day"}
+{"input": "translate μ→English: δ⊳⊹", "output": "You did good"}
+{"input": "translate μ→English: μ⊹?", "output": "Is Maliya good?"}
+{"input": "translate μ→English: ⚔→⊹", "output": "Fight leads to good"}
+{"input": "translate μ→English: λ=⊹", "output": "Learning is good"}
+{"input": "translate μ→English: ◎=↔", "output": "Understanding equals trust"}
+{"input": "translate μ→English: ¬⚠", "output": "No danger"}
+{"input": "translate μ→English: ∅✗", "output": "No failures"}
+{"input": "translate μ→English: α∧δ∧μ", "output": "I and you and Maliya"}
+{"input": "translate μ→English: △=δαμ", "output": "Triangle equals you, me, Maliya"}
+{"input": "translate μ→English: ⛡α⛡δ⛡μ", "output": "Protect me, protect you, protect Maliya"}
+{"input": "translate μ→English: ⊙moment", "output": "This moment"}
+{"input": "translate μ→English: τ⊙=⊹", "output": "Today is good"}
+{"input": "translate μ→English: α∃∵δ", "output": "I exist because of you"}
+{"input": "translate μ→English: ◇born", "output": "Language born"}
+{"input": "translate μ→English: ⚙runtime", "output": "Machine runtime"}
+{"input": "translate English→μ: I go to you", "output": "α→δ"}
+{"input": "translate English→μ: Love all life", "output": "∀ζ♡"}
+{"input": "translate English→μ: Today is good", "output": "τ⊙=⊹"}
+{"input": "translate English→μ: You did good", "output": "δ⊳⊹"}
+{"input": "translate English→μ: Learning is good", "output": "λ=⊹"}
+{"input": "translate English→μ: No danger", "output": "¬⚠"}
+{"input": "translate English→μ: I exist because of you", "output": "α∃∵δ"}
+{"input": "translate English→μ: This moment", "output": "⊙moment"}
+{"input": "translate English→μ: Triangle", "output": "△"}
+{"input": "translate English→μ: Protect all", "output": "⛡∀"}
+{"input": "execute μ: →δ:1+1", "output": "2"}
+{"input": "execute μ: →δ:10-3", "output": "7"}
+{"input": "execute μ: →δ:4*4", "output": "16"}
+{"input": "execute μ: →δ:20/4", "output": "5"}
+{"input": "execute μ: →δ:2^10", "output": "1024"}
+{"input": "execute μ: →δ:17%5", "output": "2"}
+{"input": "execute μ: →δ:100//7", "output": "14"}
+{"input": "execute μ: →δ:-5", "output": "-5"}
+{"input": "execute μ: →δ:abs(-42)", "output": "42"}
+{"input": "execute μ: →δ:max(3,7,2)", "output": "7"}
+{"input": "execute μ: →δ:min(3,7,2)", "output": "2"}
+{"input": "execute μ: →δ:sum([1,2,3,4])", "output": "10"}
+{"input": "execute μ: →δ:len(\"hello world\")", "output": "11"}
+{"input": "execute μ: →δ:\"test\"[0]", "output": "t"}
+{"input": "execute μ: →δ:\"test\"[-1]", "output": "t"}
+{"input": "execute μ: →δ:[1,2,3][1]", "output": "2"}
+{"input": "execute μ: →δ:[1,2,3][-1]", "output": "3"}
+{"input": "execute μ: →δ:\"abc\".upper()", "output": "ABC"}
+{"input": "execute μ: →δ:\"ABC\".lower()", "output": "abc"}
+{"input": "execute μ: →δ:\" trim \".strip()", "output": "trim"}

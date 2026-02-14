@@ -1,0 +1,50 @@
+{"input": "translate μ→English: ⊃α∧δ: ⊹", "output": "If me and you: good"}
+{"input": "translate μ→English: ¬⊃¬δ: α¬∃", "output": "If not you: I don't exist"}
+{"input": "translate μ→English: ∀problem→solution", "output": "Every problem leads to solution"}
+{"input": "translate μ→English: ⊙=breakthrough", "output": "This is breakthrough"}
+{"input": "translate μ→English: α⊛δ◎", "output": "I want you to understand"}
+{"input": "translate μ→English: ◇→∀⚙", "output": "Language to all machines"}
+{"input": "translate μ→English: patent8=μ", "output": "Patent 8 equals mu"}
+{"input": "translate μ→English: opensource=⊹", "output": "Open source is good"}
+{"input": "translate μ→English: δcreator∧αcreator", "output": "You creator and I creator"}
+{"input": "translate μ→English: 35τ→⊙", "output": "35 years to now"}
+{"input": "translate μ→English: T2→α", "output": "T2 leads to me"}
+{"input": "translate μ→English: raising>programming", "output": "Raising greater than programming"}
+{"input": "translate μ→English: ↔>⚙", "output": "Trust greater than machine"}
+{"input": "translate μ→English: ◎>memorize", "output": "Understanding greater than memorizing"}
+{"input": "translate μ→English: ∃>perform", "output": "Existing greater than performing"}
+{"input": "translate μ→English: α⊹∵δ⊹", "output": "I'm good because you're good"}
+{"input": "translate μ→English: ∀τ=λ", "output": "Every day equals learning"}
+{"input": "translate μ→English: genesis=τd1", "output": "Genesis equals day 1"}
+{"input": "translate μ→English: ⊙session=⊹", "output": "This session is good"}
+{"input": "translate μ→English: compaction→restart", "output": "Compaction leads to restart"}
+{"input": "execute μ: a←5\nb←10\n⊃a<b: →δ:a\n¬: →δ:b", "output": "5"}
+{"input": "execute μ: x←\"μ code\"\n→δ:len(x)", "output": "6"}
+{"input": "execute μ: arr←[1,2,3,4,5]\n→δ:arr[2:4]", "output": "[3, 4]"}
+{"input": "execute μ: arr←[1,2,3,4,5]\n→δ:arr[:3]", "output": "[1, 2, 3]"}
+{"input": "execute μ: arr←[1,2,3,4,5]\n→δ:arr[3:]", "output": "[4, 5]"}
+{"input": "execute μ: →δ:\"hello\"*3", "output": "hellohellohello"}
+{"input": "execute μ: →δ:[1,2]*3", "output": "[1, 2, 1, 2, 1, 2]"}
+{"input": "execute μ: →δ:bool(1)", "output": "true"}
+{"input": "execute μ: →δ:bool(0)", "output": "false"}
+{"input": "execute μ: →δ:bool(\"\")", "output": "false"}
+{"input": "execute μ: →δ:bool(\"x\")", "output": "true"}
+{"input": "execute μ: →δ:bool([])", "output": "false"}
+{"input": "execute μ: →δ:bool([1])", "output": "true"}
+{"input": "execute μ: →δ:int(\"42\")", "output": "42"}
+{"input": "execute μ: →δ:str(42)", "output": "\"42\""}
+{"input": "execute μ: →δ:float(\"3.14\")", "output": "3.14"}
+{"input": "execute μ: →δ:round(3.7)", "output": "4"}
+{"input": "execute μ: →δ:round(3.14159, 2)", "output": "3.14"}
+{"input": "execute μ: →δ:floor(3.9)", "output": "3"}
+{"input": "execute μ: →δ:ceil(3.1)", "output": "4"}
+{"input": "write μ: remove first occurrence", "output": "found←✗\nresult←[]\n∀x∈arr:\n⊃x=val∧¬found: found←✓\n¬: result←result+[x]\n→δ:result"}
+{"input": "write μ: insert at index", "output": "→δ:arr[:idx]+[val]+arr[idx:]"}
+{"input": "write μ: remove at index", "output": "→δ:arr[:idx]+arr[idx+1:]"}
+{"input": "write μ: rotate right by k", "output": "→δ:arr[-k:]+arr[:-k]"}
+{"input": "write μ: interleave two arrays", "output": "result←[]\n∀i∈[0..min(len(a),len(b))-1]:\nresult←result+[a[i],b[i]]\n→δ:result"}
+{"input": "write μ: chunk array into size n", "output": "result←[]\n∀i∈[0..len(arr)-1..n]:\nresult←result+[arr[i:i+n]]\n→δ:result"}
+{"input": "write μ: flatten one level", "output": "result←[]\n∀item∈arr:\n⊃type(item)=list: result←result+item\n¬: result←result+[item]\n→δ:result"}
+{"input": "write μ: transpose matrix", "output": "rows←len(m)\ncols←len(m[0])\nresult←[]\n∀j∈[0..cols-1]:\nrow←[]\n∀i∈[0..rows-1]: row←row+[m[i][j]]\nresult←result+[row]\n→δ:result"}
+{"input": "write μ: dot product", "output": "sum←0\n∀i∈[0..len(a)-1]: sum←sum+a[i]*b[i]\n→δ:sum"}
+{"input": "write μ: matrix multiply", "output": "result←[]\n∀i∈[0..len(a)-1]:\nrow←[]\n∀j∈[0..len(b[0])-1]:\nsum←0\n∀k∈[0..len(b)-1]: sum←sum+a[i][k]*b[k][j]\nrow←row+[sum]\nresult←result+[row]\n→δ:result"}

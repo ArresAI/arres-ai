@@ -1,0 +1,30 @@
+{"input": "write μ: reverse a string", "output": "result←\"\"\n∀c∈str: result←c+result\n→δ:result"}
+{"input": "write μ: check if number is even", "output": "⊃n%2=0: →δ:\"even\"\n¬: →δ:\"odd\""}
+{"input": "write μ: find length of array", "output": "count←0\n∀x∈arr: count←count+1\n→δ:count"}
+{"input": "write μ: check if array is empty", "output": "⊃arr=∅: →δ:✓\n¬: →δ:✗"}
+{"input": "write μ: double all numbers", "output": "result←[]\n∀n∈arr: result←result+[n*2]\n→δ:result"}
+{"input": "write μ: filter positive numbers", "output": "result←[]\n∀n∈arr: ⊃n>0: result←result+[n]\n→δ:result"}
+{"input": "write μ: count occurrences of x", "output": "count←0\n∀item∈arr: ⊃item=x: count←count+1\n→δ:count"}
+{"input": "write μ: check if x exists in array", "output": "found←✗\n∀item∈arr: ⊃item=x: found←✓\n→δ:found"}
+{"input": "write μ: get first element", "output": "⊃arr≠∅: →δ:arr[0]\n¬: →δ:∅"}
+{"input": "write μ: get last element", "output": "⊃arr≠∅: →δ:arr[-1]\n¬: →δ:∅"}
+{"input": "write μ: calculate average", "output": "sum←0\ncount←0\n∀n∈arr: sum←sum+n\ncount←count+1\n→δ:sum/count"}
+{"input": "write μ: find second largest", "output": "max1←arr[0]\nmax2←arr[0]\n∀x∈arr:\n⊃x>max1: max2←max1\nmax1←x\n⊃x>max2∧x<max1: max2←x\n→δ:max2"}
+{"input": "write μ: remove duplicates", "output": "seen←[]\n∀x∈arr: ⊃x∉seen: seen←seen+[x]\n→δ:seen"}
+{"input": "write μ: merge two arrays", "output": "→δ:arr1+arr2"}
+{"input": "write μ: check palindrome", "output": "reversed←\"\"\n∀c∈str: reversed←c+reversed\n⊃str=reversed: →δ:✓\n¬: →δ:✗"}
+{"input": "write μ: count vowels", "output": "vowels←\"aeiou\"\ncount←0\n∀c∈str: ⊃c∈vowels: count←count+1\n→δ:count"}
+{"input": "write μ: fizzbuzz", "output": "∀n∈[1..100]:\n⊃n%15=0: →δ:\"FizzBuzz\"\n⊃n%3=0: →δ:\"Fizz\"\n⊃n%5=0: →δ:\"Buzz\"\n¬: →δ:n"}
+{"input": "write μ: fibonacci", "output": "a←0\nb←1\n∀i∈[1..n]:\n→δ:a\ntemp←a+b\na←b\nb←temp"}
+{"input": "write μ: factorial", "output": "result←1\n∀i∈[1..n]: result←result*i\n→δ:result"}
+{"input": "write μ: power function", "output": "result←1\n⟲exp: result←result*base\n→δ:result"}
+{"input": "write μ: absolute value", "output": "⊃n<0: →δ:-n\n¬: →δ:n"}
+{"input": "write μ: clamp value between min and max", "output": "⊃x<min: →δ:min\n⊃x>max: →δ:max\n¬: →δ:x"}
+{"input": "write μ: swap two variables", "output": "temp←a\na←b\nb←temp"}
+{"input": "write μ: check if sorted ascending", "output": "sorted←✓\n∀i∈[0..len(arr)-2]:\n⊃arr[i]>arr[i+1]: sorted←✗\n→δ:sorted"}
+{"input": "write μ: bubble sort", "output": "⟲len(arr):\n∀i∈[0..len(arr)-2]:\n⊃arr[i]>arr[i+1]:\ntemp←arr[i]\narr[i]←arr[i+1]\narr[i+1]←temp\n→δ:arr"}
+{"input": "write μ: binary search", "output": "lo←0\nhi←len(arr)-1\n⟲lo≤hi:\nmid←(lo+hi)//2\n⊃arr[mid]=target: →δ:mid\n⊃arr[mid]<target: lo←mid+1\n¬: hi←mid-1\n→δ:-1"}
+{"input": "write μ: linear search", "output": "∀i∈[0..len(arr)-1]:\n⊃arr[i]=target: →δ:i\n→δ:-1"}
+{"input": "write μ: map function", "output": "result←[]\n∀x∈arr: result←result+[f(x)]\n→δ:result"}
+{"input": "write μ: filter function", "output": "result←[]\n∀x∈arr: ⊃pred(x): result←result+[x]\n→δ:result"}
+{"input": "write μ: reduce function", "output": "acc←init\n∀x∈arr: acc←f(acc,x)\n→δ:acc"}

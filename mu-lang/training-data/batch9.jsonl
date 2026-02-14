@@ -1,0 +1,40 @@
+{"input": "μ error handling 1", "output": "try:\nrisky_operation()\ncatch error:\n→δ:\"Error: \"+str(error)\nlog(error)"}
+{"input": "μ error handling 2", "output": "⊃⊗:\nhandle_error(⊗)\n¬:\ncontinue()"}
+{"input": "μ error handling 3", "output": "result←∅\ntry:\nresult←compute()\ncatch:\nresult←default\nfinally:\ncleanup()\n→δ:result"}
+{"input": "μ error handling 4", "output": "⊃input=∅: raise(\"Empty input\")\n⊃¬valid(input): raise(\"Invalid input\")\nprocess(input)"}
+{"input": "μ error handling 5", "output": "retries←3\n⟲retries>0:\ntry:\nresult←fetch()\nbreak\ncatch:\nretries←retries-1\n⊃retries=0: raise(\"Failed after 3 retries\")"}
+{"input": "μ async 1", "output": "async f():\nresult←await fetch(url)\n→δ:result"}
+{"input": "μ async 2", "output": "results←await all([fetch(u)∀u∈urls])\n→δ:results"}
+{"input": "μ async 3", "output": "async main():\ntask1←spawn(work1())\ntask2←spawn(work2())\nawait all([task1,task2])"}
+{"input": "μ async 4", "output": "⟲:\nmsg←await receive()\nprocess(msg)\n⊃msg=\"quit\": break"}
+{"input": "μ async 5", "output": "with timeout(5s):\nresult←await slow_operation()\n→δ:result"}
+{"input": "μ class 1", "output": "class Point:\ninit(x,y):\nself.x←x\nself.y←y\ndistance(other):\n→δ:sqrt((self.x-other.x)²+(self.y-other.y)²)"}
+{"input": "μ class 2", "output": "class Counter:\ninit():\nself.count←0\nincrement():\nself.count←self.count+1\nget():\n→δ:self.count"}
+{"input": "μ class 3", "output": "class Stack:\ninit():\nself.items←[]\npush(x):\nself.items.append(x)\npop():\n→δ:self.items.pop()\nempty():\n→δ:len(self.items)=0"}
+{"input": "μ class 4", "output": "class Queue:\ninit():\nself.items←[]\nenqueue(x):\nself.items.append(x)\ndequeue():\n→δ:self.items.pop(0)\nempty():\n→δ:len(self.items)=0"}
+{"input": "μ class 5", "output": "class LinkedNode:\ninit(val):\nself.val←val\nself.next←∅"}
+{"input": "μ functional 1", "output": "compose←λf,g: λx: f(g(x))"}
+{"input": "μ functional 2", "output": "curry←λf: λa: λb: f(a,b)"}
+{"input": "μ functional 3", "output": "pipe←λfns: λx: reduce(λacc,f: f(acc), fns, x)"}
+{"input": "μ functional 4", "output": "memoize←λf:\ncache←{}\nλ*args:\n⊃args∉cache: cache[args]←f(*args)\n→δ:cache[args]"}
+{"input": "μ functional 5", "output": "partial←λf,*args: λ*more: f(*args,*more)"}
+{"input": "μ regex 1", "output": "⊃match(pattern, str): →δ:\"matched\""}
+{"input": "μ regex 2", "output": "results←findall(r\"\\d+\", text)\n→δ:results"}
+{"input": "μ regex 3", "output": "cleaned←sub(r\"\\s+\", \" \", text)\n→δ:cleaned"}
+{"input": "μ regex 4", "output": "parts←split(r\"[,;]\", text)\n→δ:parts"}
+{"input": "μ regex 5", "output": "⊃fullmatch(r\"[a-z]+\", word): →δ:\"valid\""}
+{"input": "μ file 1", "output": "with open(path) as f:\ncontent←f.read()\n→δ:content"}
+{"input": "μ file 2", "output": "with open(path,\"w\") as f:\nf.write(data)"}
+{"input": "μ file 3", "output": "lines←[line.strip()∀line∈open(path)]\n→δ:lines"}
+{"input": "μ file 4", "output": "⊃exists(path):\ndata←load(path)\n¬:\ndata←default"}
+{"input": "μ file 5", "output": "with open(path,\"a\") as f:\nf.write(new_line+\"\\n\")"}
+{"input": "μ json 1", "output": "data←json.load(open(path))\n→δ:data"}
+{"input": "μ json 2", "output": "json.dump(data, open(path,\"w\"))"}
+{"input": "μ json 3", "output": "obj←json.loads(json_str)\n→δ:obj"}
+{"input": "μ json 4", "output": "str←json.dumps(obj, indent=2)\n→δ:str"}
+{"input": "μ json 5", "output": "⊃\"key\"∈data: →δ:data[\"key\"]\n¬: →δ:default"}
+{"input": "μ http 1", "output": "response←get(url)\n→δ:response.json()"}
+{"input": "μ http 2", "output": "response←post(url, data=payload)\n→δ:response.status"}
+{"input": "μ http 3", "output": "with session() as s:\ns.headers←{\"Auth\":token}\nresult←s.get(url)\n→δ:result"}
+{"input": "μ http 4", "output": "⊃response.ok:\ndata←response.json()\n¬:\nraise(response.error)"}
+{"input": "μ http 5", "output": "results←[get(url).json()∀url∈urls]"}

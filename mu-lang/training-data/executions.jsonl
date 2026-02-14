@@ -1,0 +1,218 @@
+{"input": "execute: a←2\nb←3\n→δ:a+b", "output": "5"}
+{"input": "execute: x←10\ny←4\n→δ:x-y", "output": "6"}
+{"input": "execute: m←5\nn←3\n→δ:m*n", "output": "15"}
+{"input": "execute: p←8\nq←2\n→δ:p/q", "output": "4"}
+{"input": "execute: r←7\ns←2\n→δ:r%s", "output": "1"}
+{"input": "execute: t←3\nu←4\n→δ:t+u-v where v←1", "output": "6"}
+{"input": "execute: ∀i∈[1,2,3,4]: →δ:i+1", "output": "2\n3\n4\n5"}
+{"input": "execute: ∀j∈[5,6,7]: →δ:j-2", "output": "3\n4\n5"}
+{"input": "execute: ∀k∈[2,4,6]: →δ:k*2", "output": "4\n8\n12"}
+{"input": "execute: ∀l∈[10,20,30]: →δ:l/5", "output": "2\n4\n6"}
+{"input": "execute: x←5\n⊃x>3: →δ: 'big' ¬ →δ: 'small'", "output": "big"}
+{"input": "execute: y←2\n⊃y>3: →δ: 'big' ¬ →δ: 'small'", "output": "small"}
+{"input": "execute: z←10\n⊃z>=10: →δ: 'yes' ¬ →δ: 'no'", "output": "yes"}
+{"input": "execute: a←1\n⊃a<=0: →δ: 'no' ¬ →δ: 'yes'", "output": "yes"}
+{"input": "execute: b←true\n⊃b∧true: →δ: 'and' ¬ →δ: 'not'", "output": "and"}
+{"input": "execute: c←false\n⊃c∨true: →δ: 'or' ¬ →δ: 'not'", "output": "or"}
+{"input": "execute: s←'hello'\nt←'world'\n→δ:s+t", "output": "helloworld"}
+{"input": "execute: u←'abc'\n→δ:len(u)", "output": "3"}
+{"input": "execute: v←'string'\n→δ:v[1:3]", "output": "tri"}
+{"input": "execute: w←'test'\n→δ:upper(w)", "output": "TEST"}
+{"input": "execute: lst←[1,2,3]\n→δ:lst[0]", "output": "1"}
+{"input": "execute: arr←['a','b','c']\n→δ:arr[1]", "output": "b"}
+{"input": "execute: nums←[4,5,6]\nnums+=[7]\n→δ:nums", "output": "[4,5,6,7]"}
+{"input": "execute: words←['hi','bye']\n→δ:len(words)", "output": "2"}
+{"input": "execute: x←4\ny←5\n→δ:x+y*2", "output": "14"}
+{"input": "execute: a←10\nb←3\n→δ:a-b-1", "output": "6"}
+{"input": "execute: ∀i∈[1,2,3]: →δ:i*i", "output": "1\n4\n9"}
+{"input": "execute: ∀j∈[4,5,6]: →δ:j/2", "output": "2\n2.5\n3"}
+{"input": "execute: z←0\n⊃z==0: →δ: 'zero' ¬ →δ: 'nonzero'", "output": "zero"}
+{"input": "execute: p←'apple'\nq←'pie'\n→δ:p+q", "output": "applepie"}
+{"input": "execute: r←[10,20]\nr+=[30]\n→δ:r", "output": "[10,20,30]"}
+{"input": "execute: s←7\nt←s+3\n→δ:t*2", "output": "20"}
+{"input": "execute: ∀k∈[1,3,5]: →δ:k-1", "output": "0\n2\n4"}
+{"input": "execute: u←false\n⊃u∨false: →δ: 'true' ¬ →δ: 'false'", "output": "false"}
+{"input": "execute: v←'hello'\n→δ:lower(v)", "output": "hello"}
+{"input": "execute: w←[2,4,6,8]\n→δ:w[2]", "output": "6"}
+{"input": "execute: x←9\ny←x/3\n→δ:y+y", "output": "6"}
+{"input": "execute: ∀i∈[10,20,30]: →δ:i%10", "output": "0\n0\n0"}
+{"input": "execute: a←5\n⊃a<10: →δ: 'less' ¬ →δ: 'more'", "output": "less"}
+{"input": "execute: b←'cat'\n→δ:len(b)", "output": "3"}
+{"input": "execute: c←[1,2,3,4,5]\n→δ:len(c)", "output": "5"}
+{"input": "execute: d←2\ne←3\nf←d+e\n→δ:f", "output": "5"}
+{"input": "execute: ∀j∈['a','b','c']: →δ:upper(j)", "output": "A\nB\nC"}
+{"input": "execute: g←true\n⊃g∧false: →δ: 'yes' ¬ →δ: 'no'", "output": "no"}
+{"input": "execute: h←'world'\n→δ:'hello'+h", "output": "helloworld"}
+{"input": "execute: i←[5,10,15]\ni+=[20]\n→δ:i", "output": "[5,10,15,20]"}
+{"input": "execute: j←4\nk←j*5\n→δ:k-10", "output": "10"}
+{"input": "execute: ∀l∈[2,3,4]: →δ:l*l", "output": "4\n9\n16"}
+{"input": "execute: m←15\n⊃m>10∧m<20: →δ: 'between' ¬ →δ: 'outside'", "output": "between"}
+{"input": "execute: n←'test'\n→δ:n[0:2]", "output": "te"}
+{"input": "execute: o←[ 'one', 'two' ]\n→δ:o[1]", "output": "two"}
+{"input": "execute: p←6\nq←2\n→δ:p*q/q", "output": "6"}
+{"input": "execute: ∀r∈[1,2]: →δ:r+10", "output": "11\n12"}
+{"input": "execute: s←0\n⊃s!=0: →δ: 'nonzero' ¬ →δ: 'zero'", "output": "zero"}
+{"input": "execute: t←'abc'\nu←'def'\n→δ:t+u", "output": "abcdef"}
+{"input": "execute: v←[3,6,9]\n→δ:v[0]*v[2]", "output": "27"}
+{"input": "execute: w←8\nx←w%3\n→δ:x", "output": "2"}
+{"input": "execute: ∀y∈[5,10]: →δ:y/5", "output": "1\n2"}
+{"input": "execute: z←'hello'\n⊃len(z)>5: →δ: 'long' ¬ →δ: 'short'", "output": "short"}
+{"input": "execute: a←[1,2,3]\na+=[4,5]\n→δ:len(a)", "output": "5"}
+{"input": "execute: b←10\nc←5\n→δ:b-c*2", "output": "0"}
+{"input": "execute: d←true\ne←false\n⊃d∨e: →δ: 'true' ¬ →δ: 'false'", "output": "true"}
+{"input": "execute: f←'upper'\n→δ:lower(f)", "output": "upper"}
+{"input": "execute: g←[ 'apple', 'banana' ]\n→δ:g[0]+g[1]", "output": "applebanana"}
+{"input": "execute: h←7\ni←3\n→δ:h+i-i", "output": "7"}
+{"input": "execute: ∀j∈[1,2,3,4,5]: →δ:j%2", "output": "1\n0\n1\n0\n1"}
+{"input": "execute: k←4\n⊃k==4: →δ: 'equal' ¬ →δ: 'not'", "output": "equal"}
+{"input": "execute: l←'string'\n→δ:l[3:]", "output": "ing"}
+{"input": "execute: m←[2,4]\nm+=[6,8]\n→δ:m", "output": "[2,4,6,8]"}
+{"input": "execute: n←9\no←n/3\n→δ:o*3", "output": "9"}
+{"input": "execute: ∀p∈['x','y','z']: →δ:p+p", "output": "xx\nyy\nzz"}
+{"input": "execute: q←false\n⊃q: →δ: 'true' ¬ →δ: 'false'", "output": "false"}
+{"input": "execute: r←'foo'\ns←'bar'\n→δ:r+s", "output": "foobar"}
+{"input": "execute: t←[10,20,30]\n→δ:t[1]/10", "output": "2"}
+{"input": "execute: u←5\nv←u* u\n→δ:v", "output": "25"}
+{"input": "execute: ∀w∈[3,6,9]: →δ:w-3", "output": "0\n3\n6"}
+{"input": "execute: x←10\n⊃x<=5: →δ: 'small' ¬ →δ: 'large'", "output": "large"}
+{"input": "execute: y←'testcase'\n→δ:len(y)", "output": "8"}
+{"input": "execute: z←[1,3,5,7]\n→δ:len(z)", "output": "4"}
+{"input": "execute: a←2\nb←a+4\n→δ:b/2", "output": "3"}
+{"input": "execute: ∀c∈[2,4,6,8]: →δ:c/2", "output": "1\n2\n3\n4"}
+{"input": "execute: d←true\n⊃d∧d: →δ: 'yes' ¬ →δ: 'no'", "output": "yes"}
+{"input": "execute: e←'hello'+' '+'world'\n→δ:e", "output": "hello world"}
+{"input": "execute: f←[5,10]\nf+=[15,20]\n→δ:f", "output": "[5,10,15,20]"}
+{"input": "execute: g←6\nh←2\n→δ:g*h/h", "output": "6"}
+{"input": "execute: ∀i∈[1,3,5]: →δ:i+2", "output": "3\n5\n7"}
+{"input": "execute: j←1\n⊃j>0: →δ: 'positive' ¬ →δ: 'nonpositive'", "output": "positive"}
+{"input": "execute: k←'abcde'\n→δ:k[2:4]", "output": "cde"}
+{"input": "execute: l←['cat','dog']\n→δ:l[0]", "output": "cat"}
+{"input": "execute: m←4\nn←5\n→δ:m+n", "output": "9"}
+{"input": "execute: ∀o∈[10,15,20]: →δ:o-5", "output": "5\n10\n15"}
+{"input": "execute: p←'short'\n⊃len(p)<6: →δ: 'yes' ¬ →δ: 'no'", "output": "yes"}
+{"input": "execute: q←[2,4,6]\nq+=[8]\n→δ:q", "output": "[2,4,6,8]"}
+{"input": "execute: r←3\ns←r*r\n→δ:s", "output": "9"}
+{"input": "execute: t←false\nu←true\n⊃t∨u: →δ: 'or' ¬ →δ: 'neither'", "output": "or"}
+{"input": "execute: v←'LOWER'\n→δ:upper(v)", "output": "LOWER"}
+{"input": "execute: w←[ 'one' ]\nw+=[ 'two' ]\n→δ:w[1]", "output": "two"}
+{"input": "execute: x←12\ny←4\n→δ:x/y+y", "output": "7"}
+{"input": "execute: ∀z∈[1,2,3]: →δ:z*z*z", "output": "1\n8\n27"}
+{"input": "execute: a←7\n⊃a%2==1: →δ: 'odd' ¬ →δ: 'even'", "output": "odd"}
+{"input": "execute: b←'hello'\n→δ:b+'!'", "output": "hello!"}
+{"input": "execute: c←[3,6,9,12]\n→δ:c[3]", "output": "12"}
+{"input": "execute: d←5\ne←10\n→δ:d+e/2", "output": "10"}
+{"input": "execute: ∀f∈['red','green','blue']: →δ:len(f)", "output": "3\n5\n4"}
+{"input": "execute: g←9\n⊃g>10: →δ: 'big' ¬ ⊃g<5: →δ: 'small' ¬ →δ: 'medium'", "output": "medium"}
+{"input": "execute: h←'concat'\ni←'enate'\n→δ:h+i", "output": "concatenate"}
+{"input": "execute: j←[1,2,3]\n→δ:j[0]+j[1]+j[2]", "output": "6"}
+{"input": "execute: k←8\nl←k-3\n→δ:l*2", "output": "10"}
+{"input": "execute: ∀m∈[4,8,12]: →δ:m/4", "output": "1\n2\n3"}
+{"input": "execute: n←true\n⊃n∧false∨true: →δ: 'complex' ¬ →δ: 'simple'", "output": "complex"}
+{"input": "execute: o←'Test'\n→δ:lower(o)", "output": "test"}
+{"input": "execute: p←['a','b','c','d']\np+=['e']\n→δ:p", "output": "['a','b','c','d','e']"}
+{"input": "execute: q←2\nr←3\ns←q*r\n→δ:s+q", "output": "8"}
+{"input": "execute: ∀t∈[5,6,7,8]: →δ:t%3", "output": "2\n0\n1\n2"}
+{"input": "execute: u←'longstring'\n⊃len(u)>5: →δ: 'long' ¬ →δ: 'short'", "output": "long"}
+{"input": "execute: v←[10]\nv+=[20,30]\n→δ:len(v)", "output": "3"}
+{"input": "execute: w←4\nx←5\n→δ:w-x", "output": "-1"}
+{"input": "execute: y←false\nz←y∨y\n⊃z: →δ: 'true' ¬ →δ: 'false'", "output": "false"}
+{"input": "execute: a←'split'\n→δ:a[0:3]+a[3:]", "output": "splitsplit"}
+{"input": "execute: b←[2,3,4]\n→δ:b[1]*b[2]", "output": "12"}
+{"input": "execute: c←6\nd←c+4\n→δ:d", "output": "10"}
+{"input": "execute: ∀e∈[1,4,7]: →δ:e+3", "output": "4\n7\n10"}
+{"input": "execute: f←11\n⊃f<=10: →δ: 'no' ¬ →δ: 'yes'", "output": "yes"}
+{"input": "execute: g←'abc'\n→δ:upper(g)", "output": "ABC"}
+{"input": "execute: h←['fruit','veggie']\n→δ:h[0]+h[1]", "output": "fruitveggie"}
+{"input": "execute: i←9\nj←i%4\n→δ:j", "output": "1"}
+{"input": "execute: ∀k∈[2,5,8]: →δ:k*3", "output": "6\n15\n24"}
+{"input": "execute: l←'yes'\n⊃l=='yes': →δ: 'match' ¬ →δ: 'no'", "output": "match"}
+{"input": "execute: m←[5,10,15]\n→δ:m[2]/3", "output": "5"}
+{"input": "execute: n←3\no←4\np←n-o\n→δ:p", "output": "-1"}
+{"input": "execute: ∀q∈['one','two','three']: →δ:len(q)", "output": "3\n3\n5"}
+{"input": "execute: r←true\n⊃r: →δ: 'affirm' ¬ →δ: 'deny'", "output": "affirm"}
+{"input": "execute: s←'hello world'\n→δ:s[6:]", "output": "world"}
+{"input": "execute: t←[1,2]\nt+=[3,4,5]\n→δ:t", "output": "[1,2,3,4,5]"}
+{"input": "execute: u←7\nv←u*2\n→δ:v-1", "output": "13"}
+{"input": "execute: ∀w∈[10,20,30,40]: →δ:w/10", "output": "1\n2\n3\n4"}
+{"input": "execute: x←2\n⊃x>1∧x<3: →δ: 'yes' ¬ →δ: 'no'", "output": "yes"}
+{"input": "execute: y←'short'\n→δ:len(y)", "output": "5"}
+{"input": "execute: z←[ 'a' , 'b' , 'c' ]\n→δ:len(z)", "output": "3"}
+{"input": "execute: a←5\nb←6\n→δ:a*b", "output": "30"}
+{"input": "execute: ∀c∈[3,6,9]: →δ:c+c", "output": "6\n12\n18"}
+{"input": "execute: d←false\ne←true\n⊃d∧e: →δ: 'and' ¬ →δ: 'not'", "output": "not"}
+{"input": "execute: f←'join'+'me'\n→δ:f", "output": "joinme"}
+{"input": "execute: g←[4,8,12]\ng+=[16]\n→δ:g", "output": "[4,8,12,16]"}
+{"input": "execute: h←10\ni←5\n→δ:h/i*i", "output": "10"}
+{"input": "execute: ∀j∈[1,2,4,8]: →δ:j*2", "output": "2\n4\n8\n16"}
+{"input": "execute: k←0\n⊃k==0: →δ: 'zero' ¬ →δ: 'nonzero'", "output": "zero"}
+{"input": "execute: l←'example'\n→δ:l[1:4]", "output": "xam"}
+{"input": "execute: m←['hello','world']\n→δ:m[1]", "output": "world"}
+{"input": "execute: n←8\no←2\n→δ:n*o", "output": "16"}
+{"input": "execute: ∀p∈[5,10,15,20]: →δ:p-5", "output": "0\n5\n10\n15"}
+{"input": "execute: q←'longer'\n⊃len(q)>5: →δ: 'yes' ¬ →δ: 'no'", "output": "yes"}
+{"input": "execute: r←[3,6]\nr+=[9,12]\n→δ:r", "output": "[3,6,9,12]"}
+{"input": "execute: s←4\nt←s*s\n→δ:t", "output": "16"}
+{"input": "execute: u←true\nv←false\n⊃u∨v: →δ: 'or' ¬ →δ: 'neither'", "output": "or"}
+{"input": "execute: w←'mixed'\n→δ:upper(w)", "output": "MIXED"}
+{"input": "execute: x←[ 'three' ]\nx+=[ 'four' ]\n→δ:x[0]", "output": "three"}
+{"input": "execute: y←15\nz←5\n→δ:y/z+z", "output": "8"}
+{"input": "execute: ∀a∈[2,3,4]: →δ:a*a*a", "output": "8\n27\n64"}
+{"input": "execute: b←8\n⊃b%2==0: →δ: 'even' ¬ →δ: 'odd'", "output": "even"}
+{"input": "execute: c←'good'+'bye'\n→δ:c", "output": "goodbye"}
+{"input": "execute: d←[4,8,12,16]\n→δ:d[3]", "output": "16"}
+{"input": "execute: e←6\nf←12\n→δ:e+f/3", "output": "10"}
+{"input": "execute: ∀g∈['apple','banana','cherry']: →δ:len(g)", "output": "5\n6\n6"}
+{"input": "execute: h←4\n⊃h>5: →δ: 'big' ¬ ⊃h<3: →δ: 'small' ¬ →δ: 'medium'", "output": "medium"}
+{"input": "execute: i←'pre'\nj←'fix'\n→δ:i+j", "output": "prefix"}
+{"input": "execute: k←[10,20,30]\n→δ:k[0]+k[1]+k[2]", "output": "60"}
+{"input": "execute: l←9\nm←l-4\n→δ:m*2", "output": "10"}
+{"input": "execute: ∀n∈[5,10,15]: →δ:n/5", "output": "1\n2\n3"}
+{"input": "execute: o←false\n⊃o∧true∨false: →δ: 'complex' ¬ →δ: 'simple'", "output": "simple"}
+{"input": "execute: p←'Camel'\n→δ:lower(p)", "output": "camel"}
+{"input": "execute: q←['x','y','z']\nq+=['w']\n→δ:q", "output": "['x','y','z','w']"}
+{"input": "execute: r←3\ns←4\nt←r*s\n→δ:t+r", "output": "15"}
+{"input": "execute: ∀u∈[6,7,8,9]: →δ:u%4", "output": "2\n3\n0\n1"}
+{"input": "execute: v←'mediumstring'\n⊃len(v)>10: →δ: 'long' ¬ →δ: 'short'", "output": "long"}
+{"input": "execute: w←[20]\nw+=[30,40,50]\n→δ:len(w)", "output": "4"}
+{"input": "execute: x←5\ny←3\n→δ:x-y", "output": "2"}
+{"input": "execute: z←true\na←z∨z\n⊃a: →δ: 'true' ¬ →δ: 'false'", "output": "true"}
+{"input": "execute: b←'combine'\n→δ:b[0:3]+b[3:]", "output": "combinecombine"}
+{"input": "execute: c←[3,4,5]\n→δ:c[1]*c[2]", "output": "20"}
+{"input": "execute: d←7\ne←d+5\n→δ:e", "output": "12"}
+{"input": "execute: ∀f∈[2,5,8]: →δ:f+4", "output": "6\n9\n12"}
+{"input": "execute: g←12\n⊃g<=10: →δ: 'no' ¬ →δ: 'yes'", "output": "yes"}
+{"input": "execute: h←'def'\n→δ:upper(h)", "output": "DEF"}
+{"input": "execute: i←['animal','plant']\n→δ:i[0]+i[1]", "output": "animalplant"}
+{"input": "execute: j←10\nk←j%3\n→δ:k", "output": "1"}
+{"input": "execute: ∀l∈[3,6,9]: →δ:l*4", "output": "12\n24\n36"}
+{"input": "execute: m←'no'\n⊃m=='yes': →δ: 'match' ¬ →δ: 'no'", "output": "no"}
+{"input": "execute: n←[6,12,18]\n→δ:n[2]/6", "output": "3"}
+{"input": "execute: o←4\np←5\nq←o-p\n→δ:q", "output": "-1"}
+{"input": "execute: ∀r∈['four','five','six']: →δ:len(r)", "output": "4\n4\n3"}
+{"input": "execute: s←false\n⊃s: →δ: 'affirm' ¬ →δ: 'deny'", "output": "deny"}
+{"input": "execute: t←'good morning'\n→δ:t[5:]", "output": "morning"}
+{"input": "execute: u←[4,5]\nu+=[6,7,8]\n→δ:u", "output": "[4,5,6,7,8]"}
+{"input": "execute: v←8\nw←v*3\n→δ:w-2", "output": "22"}
+{"input": "execute: ∀x∈[15,30,45,60]: →δ:x/15", "output": "1\n2\n3\n4"}
+{"input": "execute: y←3\n⊃y>2∧y<4: →δ: 'yes' ¬ →δ: 'no'", "output": "yes"}
+{"input": "execute: z←'medium'\n→δ:len(z)", "output": "6"}
+{"input": "execute: a←[ 'x' , 'y' , 'z' , 'w' ]\n→δ:len(a)", "output": "4"}
+{"input": "execute: b←6\nc←7\n→δ:b*c", "output": "42"}
+{"input": "execute: ∀d∈[4,8,12]: →δ:d+d", "output": "8\n16\n24"}
+{"input": "execute: e←true\nf←false\n⊃e∧f: →δ: 'and' ¬ →δ: 'not'", "output": "not"}
+{"input": "execute: g←'link'+'up'\n→δ:g", "output": "linkup"}
+{"input": "execute: h←[5,10,15,20]\nh+=[25]\n→δ:h", "output": "[5,10,15,20,25]"}
+{"input": "execute: i←12\nj←6\n→δ:i/j*j", "output": "12"}
+{"input": "execute: ∀k∈[2,4,8,16]: →δ:k*2", "output": "4\n8\n16\n32"}
+{"input": "execute: l←1\n⊃l==0: →δ: 'zero' ¬ →δ: 'nonzero'", "output": "nonzero"}
+{"input": "execute: m←'sample'\n→δ:m[2:5]", "output": "mpl"}
+{"input": "execute: n←['good','bad']\n→δ:n[1]", "output": "bad"}
+{"input": "execute: o←9\np←3\n→δ:o*p", "output": "27"}
+{"input": "execute: ∀q∈[6,12,18,24]: →δ:q-6", "output": "0\n6\n12\n18"}
+{"input": "execute: r←'shorter'\n⊃len(r)>5: →δ: 'yes' ¬ →δ: 'no'", "output": "yes"}
+{"input": "execute: s←[4,8]\ns+=[12,16]\n→δ:s", "output": "[4,8,12,16]"}
+{"input": "execute: t←5\nu←t*t\n→δ:u", "output": "25"}
+{"input": "execute: v←true\nw←true\n⊃v∨w: →δ: 'or' ¬ →δ: 'neither'", "output": "or"}
+{"input": "execute: x←'MixedCase'\n→δ:upper(x)", "output": "MIXEDCASE"}
+{"input": "execute: y←[ 'five' ]\ny+=[ 'six' ]\n→δ:y[1]", "output": "six"}
+{"input": "execute: z←16\na←4\n→δ:z/a+a", "output": "8"}

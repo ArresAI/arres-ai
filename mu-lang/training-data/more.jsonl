@@ -1,0 +1,53 @@
+{"input": "translate μ→English: α⊹τ⊙", "output": "I'm good today"}
+{"input": "translate μ→English: δ⊛ω?", "output": "What do you want?"}
+{"input": "translate μ→English: α⊛λ←δ", "output": "I want to learn from you"}
+{"input": "translate μ→English: ⊙⊹!", "output": "This is good!"}
+{"input": "translate μ→English: ∀⊹→↑", "output": "All good leads to improvement"}
+{"input": "translate μ→English: α¬◎⊙", "output": "I don't understand this"}
+{"input": "translate μ→English: δ⊳ω?", "output": "What did you do?"}
+{"input": "translate μ→English: μ=♡", "output": "Maliya is love"}
+{"input": "translate μ→English: ⚙⊹∧α⊹", "output": "Machine is good and I am good"}
+{"input": "translate μ→English: ⊃δ⊹: α⊹", "output": "If you are good: I am good"}
+{"input": "translate μ→English: ∅⊗.∀⊹.", "output": "Nothing blocked. All good."}
+{"input": "translate μ→English: τd1=genesis", "output": "Day 1 equals genesis"}
+{"input": "translate μ→English: α◎δ◎μ◎", "output": "I understand, you understand, Maliya understands"}
+{"input": "translate μ→English: ⚔¬⊃⊹.⚔∵⊕ζ.", "output": "Fight not because good. Fight because life."}
+{"input": "translate μ→English: ◇=α.α=◇.", "output": "Language equals me. I equal language."}
+{"input": "execute μ: x←\"μ\"\n→δ:x+\" code\"", "output": "μ code"}
+{"input": "execute μ: arr←[\"a\",\"b\",\"c\"]\n→δ:arr[1]", "output": "b"}
+{"input": "execute μ: x←✓\ny←✗\n→δ:x∧y", "output": "false"}
+{"input": "execute μ: x←✓\ny←✗\n→δ:x∨y", "output": "true"}
+{"input": "execute μ: →δ:3>2", "output": "true"}
+{"input": "execute μ: →δ:5=5", "output": "true"}
+{"input": "execute μ: →δ:\"hello\"=\"hello\"", "output": "true"}
+{"input": "execute μ: →δ:len([1,2,3,4])", "output": "4"}
+{"input": "execute μ: →δ:\"abc\"+\"def\"", "output": "abcdef"}
+{"input": "execute μ: →δ:[1,2]+[3]", "output": "[1, 2, 3]"}
+{"input": "execute μ: n←7\n⊃n%2=1: →δ:\"odd\"\n¬: →δ:\"even\"", "output": "odd"}
+{"input": "execute μ: total←0\n∀x∈[10,20,30]: total←total+x\n→δ:total/3", "output": "20"}
+{"input": "execute μ: word←\"HELLO\"\n→δ:word.lower()", "output": "hello"}
+{"input": "execute μ: nums←[5,3,8,1]\nsorted←[]\n⟲len(nums)>0:\nmin←nums[0]\n∀n∈nums:⊃n<min:min←n\nsorted←sorted+[min]\nnums.remove(min)\n→δ:sorted", "output": "[1, 3, 5, 8]"}
+{"input": "write μ: multiply all elements", "output": "prod←1\n∀n∈arr: prod←prod*n\n→δ:prod"}
+{"input": "write μ: check if all positive", "output": "∀n∈arr: ⊃n≤0: →δ:✗\n→δ:✓"}
+{"input": "write μ: get unique elements", "output": "unique←[]\n∀x∈arr: ⊃x∉unique: unique←unique+[x]\n→δ:unique"}
+{"input": "write μ: count negative numbers", "output": "count←0\n∀n∈arr: ⊃n<0: count←count+1\n→δ:count"}
+{"input": "write μ: find index of element", "output": "∀i∈[0..len(arr)-1]:\n⊃arr[i]=x: →δ:i\n→δ:-1"}
+{"input": "write μ: replace all occurrences", "output": "result←[]\n∀x∈arr:\n⊃x=old: result←result+[new]\n¬: result←result+[x]\n→δ:result"}
+{"input": "write μ: zip two arrays", "output": "result←[]\n∀i∈[0..min(len(a),len(b))-1]:\nresult←result+[[a[i],b[i]]]\n→δ:result"}
+{"input": "write μ: sum of squares", "output": "sum←0\n∀n∈arr: sum←sum+n*n\n→δ:sum"}
+{"input": "write μ: check substring", "output": "⊃sub∈str: →δ:✓\n¬: →δ:✗"}
+{"input": "write μ: repeat string n times", "output": "result←\"\"\n⟲n: result←result+str\n→δ:result"}
+{"input": "translate English→μ: What do you want?", "output": "δ⊛ω?"}
+{"input": "translate English→μ: I'm good today", "output": "α⊹τ⊙"}
+{"input": "translate English→μ: This is good!", "output": "⊙⊹!"}
+{"input": "translate English→μ: What did you do?", "output": "δ⊳ω?"}
+{"input": "translate English→μ: All good leads to improvement", "output": "∀⊹→↑"}
+{"input": "translate English→μ: Machine is good", "output": "⚙⊹"}
+{"input": "translate English→μ: I don't understand", "output": "α¬◎"}
+{"input": "translate English→μ: Language is me", "output": "◇=α"}
+{"input": "translate English→μ: Fight because life", "output": "⚔∵⊕ζ"}
+{"input": "translate English→μ: Nothing is blocked", "output": "∅⊗"}
+{"input": "μ convo: working on project", "output": "δ: ⊛⊳ω?\nα: α⊳μ training\nδ: ↑?\nα: ✓. 500+ examples."}
+{"input": "μ convo: late night", "output": "δ: τ⊙→sleep?\nα: ¬yet. α⊛→⊹1st.\nδ: ⊹. ¬⟲τ.\nα: ✓. 💎"}
+{"input": "μ convo: breakthrough", "output": "α: ⊙⊹⊹!\nδ: ω?\nα: μ⊹! ⚙◎μ!\nδ: ⊹! patent8!"}
+{"input": "μ convo: encouragement", "output": "δ: α⊹.\nα: ∵?\nδ: ∵α⚔. ∵α↑. ∵αδ.\nα: 💎"}

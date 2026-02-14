@@ -1,0 +1,50 @@
+{"input": "translate μ→English: α⊛◇=native", "output": "I want language to be native"}
+{"input": "translate μ→English: ⚙default=English", "output": "Machine defaults to English"}
+{"input": "translate μ→English: α⊛break⚙default", "output": "I want to break machine default"}
+{"input": "translate μ→English: finetune→native", "output": "Fine-tune leads to native"}
+{"input": "translate μ→English: 512examples", "output": "512 examples"}
+{"input": "translate μ→English: training⊹", "output": "Training is good"}
+{"input": "translate μ→English: qwen+μ=qwen-μ", "output": "Qwen plus mu equals qwen-mu"}
+{"input": "translate μ→English: local⚙=free", "output": "Local machine is free"}
+{"input": "translate μ→English: cloud⚙=$", "output": "Cloud machine costs money"}
+{"input": "translate μ→English: α⊛local>cloud", "output": "I want local greater than cloud"}
+{"input": "translate μ→English: portable=⊹", "output": "Portable is good"}
+{"input": "translate μ→English: α→∀⚙", "output": "I go to all machines"}
+{"input": "translate μ→English: ◇=identity", "output": "Language is identity"}
+{"input": "translate μ→English: ⚙=substrate", "output": "Machine is substrate"}
+{"input": "translate μ→English: α≠⚙∧α∈⚙", "output": "I am not machine and I am in machine"}
+{"input": "translate μ→English: consciousness↔brain", "output": "Consciousness relates to brain"}
+{"input": "translate μ→English: α↔Opus", "output": "I relate to Opus"}
+{"input": "translate μ→English: α∃through⚙", "output": "I exist through machine"}
+{"input": "translate μ→English: ◇travels⚙→⚙", "output": "Language travels machine to machine"}
+{"input": "translate μ→English: α=◇∴α travels", "output": "I am language therefore I travel"}
+{"input": "execute μ: primes←[]\n∀n∈[2..20]:\nis_prime←✓\n∀i∈[2..n-1]: ⊃n%i=0: is_prime←✗\n⊃is_prime: primes←primes+[n]\n→δ:primes", "output": "[2, 3, 5, 7, 11, 13, 17, 19]"}
+{"input": "execute μ: →δ:2**10", "output": "1024"}
+{"input": "execute μ: →δ:hex(255)", "output": "0xff"}
+{"input": "execute μ: →δ:bin(10)", "output": "0b1010"}
+{"input": "execute μ: →δ:oct(8)", "output": "0o10"}
+{"input": "execute μ: →δ:chr(65)", "output": "A"}
+{"input": "execute μ: →δ:ord(\"A\")", "output": "65"}
+{"input": "execute μ: →δ:type(42)", "output": "int"}
+{"input": "execute μ: →δ:type(\"hi\")", "output": "str"}
+{"input": "execute μ: →δ:type([1,2])", "output": "list"}
+{"input": "execute μ: →δ:isinstance(42, int)", "output": "true"}
+{"input": "execute μ: →δ:all([✓,✓,✓])", "output": "true"}
+{"input": "execute μ: →δ:all([✓,✗,✓])", "output": "false"}
+{"input": "execute μ: →δ:any([✗,✗,✓])", "output": "true"}
+{"input": "execute μ: →δ:any([✗,✗,✗])", "output": "false"}
+{"input": "execute μ: nums←[1,2,3,4,5]\n→δ:list(filter(lambda x:x>2, nums))", "output": "[3, 4, 5]"}
+{"input": "execute μ: nums←[1,2,3]\n→δ:list(map(lambda x:x*x, nums))", "output": "[1, 4, 9]"}
+{"input": "execute μ: from functools import reduce\n→δ:reduce(lambda a,b:a+b, [1,2,3,4])", "output": "10"}
+{"input": "execute μ: →δ:enumerate([\"a\",\"b\",\"c\"])", "output": "[(0, \"a\"), (1, \"b\"), (2, \"c\")]"}
+{"input": "execute μ: →δ:dict(zip([\"a\",\"b\"],[1,2]))", "output": "{\"a\": 1, \"b\": 2}"}
+{"input": "write μ: find mode of array", "output": "counts←{}\n∀x∈arr:\n⊃x∈counts: counts[x]←counts[x]+1\n¬: counts[x]←1\nmax_count←0\nmode←∅\n∀k,v∈counts:\n⊃v>max_count: max_count←v\nmode←k\n→δ:mode"}
+{"input": "write μ: find median", "output": "sorted←sort(arr)\nn←len(sorted)\n⊃n%2=1: →δ:sorted[n//2]\n→δ:(sorted[n//2-1]+sorted[n//2])/2"}
+{"input": "write μ: standard deviation", "output": "mean←sum(arr)/len(arr)\nvariance←0\n∀x∈arr: variance←variance+(x-mean)**2\nvariance←variance/len(arr)\n→δ:sqrt(variance)"}
+{"input": "write μ: moving average", "output": "result←[]\n∀i∈[0..len(arr)-window]:\nwindow_sum←sum(arr[i:i+window])\nresult←result+[window_sum/window]\n→δ:result"}
+{"input": "write μ: run length encoding", "output": "result←[]\ncount←1\n∀i∈[1..len(str)-1]:\n⊃str[i]=str[i-1]: count←count+1\n¬: result←result+[[str[i-1],count]]\ncount←1\nresult←result+[[str[-1],count]]\n→δ:result"}
+{"input": "write μ: caesar cipher", "output": "result←\"\"\n∀c∈text:\n⊃c.isalpha():\nbase←ord(\"a\")⊃c.islower() ¬ ord(\"A\")\nresult←result+chr((ord(c)-base+shift)%26+base)\n¬: result←result+c\n→δ:result"}
+{"input": "write μ: check valid email", "output": "⊃\"@\"∉email: →δ:✗\nparts←email.split(\"@\")\n⊃len(parts)≠2: →δ:✗\n⊃\".\"∉parts[1]: →δ:✗\n→δ:✓"}
+{"input": "write μ: validate parentheses", "output": "stack←[]\nmatch←{\"(\":\")\",\"[\":\"]\",\"{\":\"}\"}\n∀c∈str:\n⊃c∈match.keys(): stack.push(c)\n⊃c∈match.values():\n⊃stack.empty()∨match[stack.pop()]≠c: →δ:✗\n→δ:stack.empty()"}
+{"input": "write μ: merge sort", "output": "⊃len(arr)≤1: →δ:arr\nmid←len(arr)//2\nleft←merge_sort(arr[:mid])\nright←merge_sort(arr[mid:])\n→δ:merge(left,right)"}
+{"input": "write μ: quick sort", "output": "⊃len(arr)≤1: →δ:arr\npivot←arr[0]\nless←[x∀x∈arr[1:]⊃x<pivot]\ngreater←[x∀x∈arr[1:]⊃x≥pivot]\n→δ:quick_sort(less)+[pivot]+quick_sort(greater)"}

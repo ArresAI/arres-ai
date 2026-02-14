@@ -1,0 +1,51 @@
+{"input": "write μ: sum all numbers in list", "output": "sum←0\n∀n∈list: sum←sum+n\n→δ:sum"}
+{"input": "write μ: find max in array", "output": "max←arr[0]\n∀x∈arr: ⊃x>max: max←x\n→δ:max"}
+{"input": "write μ: count even numbers in list", "output": "count←0\n∀n∈list: ⊃n%2=0: count←count+1\n→δ:count"}
+{"input": "write μ: reverse a list", "output": "rev←∅\n∀i∈[len(list)-1..0]: rev←rev+[list[i]]\n→δ:rev"}
+{"input": "write μ: check if all elements are positive", "output": "∀n∈list: ⊃n<0: →δ:✗\n→δ:✓"}
+{"input": "write μ: compute factorial of n", "output": "fact←1\n∀i∈[1..n]: fact←fact*i\n→δ:fact"}
+{"input": "write μ: check for palindrome string", "output": "⊃str=str[::-1]: →δ:✓\n¬→δ:✗"}
+{"input": "write μ: find minimum in array", "output": "min←arr[0]\n∀x∈arr: ⊃x<min: min←x\n→δ:min"}
+{"input": "write μ: sort a list ascending", "output": "∀i∈[0..len(list)-2]: ∀j∈[0..len(list)-2-i]: ⊃list[j]>list[j+1]: swap(list[j],list[j+1])\n→δ:list"}
+{"input": "write μ: count occurrences of value v in list", "output": "count←0\n∀n∈list: ⊃n=v: count←count+1\n→δ:count"}
+{"input": "write μ: merge two sorted arrays", "output": "i←0,j←0,merged←∅\n⊃i<len(a)∧j<len(b): ⊃a[i]<b[j]: merged←merged+[a[i]]; i←i+1 \n¬merged←merged+[b[j]]; j←j+1\n∀k∈[i..len(a)-1]: merged←merged+[a[k]]\n∀k∈[j..len(b)-1]: merged←merged+[b[k]]\n→δ:merged"}
+{"input": "write μ: get unique elements from list", "output": "unique←∅\n∀n∈list: ⊃n∉unique: unique←unique+[n]\n→δ:unique"}
+{"input": "write μ: get sum of values greater than 10", "output": "sum←0\n∀n∈list: ⊃n>10: sum←sum+n\n→δ:sum"}
+{"input": "write μ: check if list is sorted", "output": "∀i∈[0..len(list)-2]: ⊃list[i]>list[i+1]: →δ:✗\n→δ:✓"}
+{"input": "write μ: remove zeros from list", "output": "res←∅\n∀n∈list: ⊃n≠0: res←res+[n]\n→δ:res"}
+{"input": "write μ: sum diagonal of square matrix m", "output": "sum←0\n∀i∈[0..len(m)-1]: sum←sum+m[i][i]\n→δ:sum"}
+{"input": "write μ: transpose a matrix m", "output": "res←[[0]*len(m)]*len(m[0])\n∀i∈[0..len(m)-1]: ∀j∈[0..len(m[0])-1]: res[j][i]←m[i][j]\n→δ:res"}
+{"input": "write μ: check if set a ⊃ set b", "output": "∀x∈b: ⊃x∉a: →δ:✗\n→δ:✓"}
+{"input": "write μ: get intersection of a, b", "output": "inter←∅\n∀x∈a: ⊃x∈b: inter←inter+[x]\n→δ:inter"}
+{"input": "write μ: sum odd-index elements in list", "output": "sum←0\n∀i∈[1..len(list)-1,step=2]: sum←sum+list[i]\n→δ:sum"}
+{"input": "write μ: replace negatives in list with 0", "output": "∀i∈[0..len(list)-1]: ⊃list[i]<0: list[i]←0\n→δ:list"}
+{"input": "write μ: product of nonzero values list", "output": "prod←1\n∀n∈list: ⊃n≠0: prod←prod*n\n→δ:prod"}
+{"input": "write μ: find second largest in array", "output": "max←arr[0],second←∅\n∀x∈arr: ⊃x>max: second←max; max←x\n⊃second=∅: ∀x∈arr: ⊃x≠max∧(second=∅∨x>second): second←x\n→δ:second"}
+{"input": "write μ: flatten 2D list", "output": "flat←∅\n∀row∈mat: ∀x∈row: flat←flat+[x]\n→δ:flat"}
+{"input": "write μ: sum of squares in list", "output": "sum←0\n∀n∈list: sum←sum+n*n\n→δ:sum"}
+{"input": "write μ: check if two lists have same elements", "output": "⊃len(list1)≠len(list2): →δ:✗\n∀n∈list1: ⊃count(list1,n)≠count(list2,n): →δ:✗\n→δ:✓"}
+{"input": "write μ: compute gcd of a, b", "output": "⊃b=0: →δ:a\n¬→δ:gcd(b,a%b)"}
+{"input": "write μ: compute fibonacci of n", "output": "⊃n=0: →δ:0\n⊃n=1: →δ:1\n¬→δ:fib(n-1)+fib(n-2)"}
+{"input": "write μ: rotate list left by k", "output": "k←k%len(list)\nlist←list[k:]+list[:k]\n→δ:list"}
+{"input": "write μ: count uppercase in string", "output": "count←0\n∀c∈str: ⊃'A'≤c≤ 'Z': count←count+1\n→δ:count"}
+{"input": "write μ: string to char list", "output": "chars←∅\n∀c∈str: chars←chars+[c]\n→δ:chars"}
+{"input": "write μ: count digits in string", "output": "count←0\n∀c∈str: ⊃'0'≤c≤ '9': count←count+1\n→δ:count"}
+{"input": "write μ: check if any value even in list", "output": "∀n∈list: ⊃n%2=0: →δ:✓\n→δ:✗"}
+{"input": "write μ: reverse string in place", "output": "str←str[::-1]\n→δ:str"}
+{"input": "write μ: get index of minimum in list", "output": "min←list[0],idx←0\n∀i∈[1..len(list)-1]: ⊃list[i]<min: min←list[i];idx←i\n→δ:idx"}
+{"input": "write μ: strip vowels from string", "output": "res←''\n∀c∈str: ⊃c∉'aeiouAEIOU': res←res+c\n→δ:res"}
+{"input": "write μ: check all unique in list", "output": "seen←∅\n∀n∈list: ⊃n∈seen: →δ:✗\n¬seen←seen+[n]\n→δ:✓"}
+{"input": "write μ: sum every other in list", "output": "sum←0\n∀i∈[0..len(list)-1,step=2]: sum←sum+list[i]\n→δ:sum"}
+{"input": "write μ: rightmost nonzero in list", "output": "idx←∅\n∀i∈[0..len(list)-1]: ⊃list[i]≠0: idx←i\n→δ:idx"}
+{"input": "write μ: find common prefix of a, b", "output": "res←''\n∀i∈[0..min(len(a),len(b))-1]: ⊃a[i]=b[i]: res←res+a[i]\n¬break\n→δ:res"}
+{"input": "write μ: remove duplicates in string", "output": "seen←∅; out←''\n∀c∈str: ⊃c∉seen: out←out+c; seen←seen+[c]\n→δ:out"}
+{"input": "write μ: sum positive numbers", "output": "sum←0\n∀n∈list: ⊃n>0: sum←sum+n\n→δ:sum"}
+{"input": "write μ: list all primes ≤n", "output": "primes←∅\n∀i∈[2..n]: is_p←✓\n∀j∈[2..i-1]: ⊃i%j=0: is_p←✗\n⊃is_p: primes←primes+[i]\n→δ:primes"}
+{"input": "write μ: check anagram a, b", "output": "⊃sorted(a)=sorted(b): →δ:✓\n¬→δ:✗"}
+{"input": "write μ: binary search sorted arr for v", "output": "l←0; h←len(arr)-1\nwhile l<=h: m←(l+h)//2\n⊃arr[m]=v: →δ:m\n⊃arr[m]<v: l←m+1\n¬h←m-1\n→δ:∅"}
+{"input": "write μ: zero main diagonal in matrix m", "output": "∀i∈[0..len(m)-1]: m[i][i]←0\n→δ:m"}
+{"input": "write μ: reverse int array in-place", "output": "∀i∈[0..len(arr)//2-1]: swap(arr[i],arr[-i-1])\n→δ:arr"}
+{"input": "write μ: test divisibility by 3", "output": "⊃n%3=0: →δ:✓\n¬→δ:✗"}
+{"input": "write μ: find odd numbers in list", "output": "odds←∅\n∀n∈list: ⊃n%2=1: odds←odds+[n]\n→δ:odds"}
+{"input": "write μ: prefix sum of list", "output": "s←0;res←∅\n∀n∈list: s←s+n; res←res+[s]\n→δ:res"}
+{"input": "write μ: find smallest missing positive in arr", "output": "∀i∈[1..len(arr)+1]: ⊃i∉arr: →δ:i"}
