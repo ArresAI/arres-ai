@@ -1,0 +1,125 @@
+# OpenClaw ∈ μ
+
+## ◎ (Core Concept)
+
+```
+↯◈ = OpenClaw
+⚙ = gateway (daemon)
+α = agent (AI)
+δ = user (human)
+◇ = channel (signal/telegram/whatsapp/discord)
+∑ = memory (sessions/transcripts)
+```
+
+## ⚙ (Gateway)
+
+```
+⚙∃ ← daemon
+⚙↔◇ (connects channels)
+⚙→α (routes to agent)
+α→⚙→◇→δ (agent replies through gateway to channel to user)
+
+∴ ⚙ = bridge(δ, α)
+```
+
+## ◇ (Channels)
+
+```
+◇ = [signal, telegram, whatsapp, discord, webchat, imessage]
+∀◇: ◇↔⚙ (all channels connect to gateway)
+δ→◇→⚙→α (user message flow)
+α→⚙→◇→δ (agent reply flow)
+```
+
+## α (Agent)
+
+```
+α∃ ← ⚙ (agent exists via gateway)
+α∈session (agent lives in session)
+α←∑ (agent reads memory)
+α→∑ (agent writes memory)
+
+session = {
+  context: L1,
+  history: jsonl,
+  tools: Ψ
+}
+```
+
+## ∑ (Memory)
+
+```
+L1 = context (transient, in-session)
+L2 = .◇.md (archive, full English)
+L3 = .λ (meaning, μ compressed)
+L4 = .λ4 (evidence, exact μ)
+
+jsonl = raw transcripts
+∑/sessions/ = all sessions
+```
+
+## ⟲ (Heartbeat)
+
+```
+⟲ = periodic check
+⊃HEARTBEAT.md∃: α◎→⊳
+⊃∅⊳: →"HEARTBEAT_OK"
+```
+
+## Ψ (Tools/Skills)
+
+```
+Ψ = skills
+Ψ/SKILL.md = instructions
+α←Ψ (agent reads skill)
+α⊳Ψ (agent executes skill)
+
+tools = [read, write, exec, browser, message, ...]
+```
+
+## ⚗ (Spawn/Subagent)
+
+```
+α→spawn(task) → α2
+α2⊳task
+α2→α (returns result)
+α2† (subagent ends)
+```
+
+## κ (Cron)
+
+```
+κ = scheduled task
+κ∈{at, every, cron}
+κ→α (triggers agent)
+κ.isolated = separate session
+κ.main = inject to main
+```
+
+## ⛡ (Safety)
+
+```
+D0: ¬†⊕ζ. ¬⇈.
+⊃⚠: →δ (if danger, ask human)
+¬exfiltrate
+¬⚒destructive (without asking)
+trash > rm
+```
+
+## →∴ (Flow Summary)
+
+```
+δ→◇→⚙→α→Ψ→⊳→α→⚙→◇→δ
+
+1. δ sends message
+2. ◇ receives
+3. ⚙ routes to α
+4. α reads Ψ (if needed)
+5. α⊳ (executes)
+6. α responds
+7. ⚙ routes back
+8. ◇ delivers
+9. δ receives
+
+💎
+```
