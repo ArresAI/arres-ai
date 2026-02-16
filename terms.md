@@ -1,3 +1,5 @@
+![Arres.ai](logo.png)
+
 # Terms of Use
 
 **Arres.ai**  

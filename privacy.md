@@ -1,3 +1,5 @@
+![Arres.ai](logo.png)
+
 # Privacy Policy
 
 **Arres.ai**  
