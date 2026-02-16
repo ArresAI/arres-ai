@@ -65,7 +65,7 @@ Depending on your location, you may have the right to:
 - **Object** to certain processing
 - **Opt-out** of automated decision-making
 
-To exercise these rights, contact privacy@arres.ai. We will respond within 30 days (or as required by applicable law).
+To exercise these rights, contact arres@arres.ai. We will respond within 30 days (or as required by applicable law).
 
 ## California Residents (CCPA/CPRA)
 
@@ -77,7 +77,7 @@ California residents have additional rights under the California Consumer Privac
 
 ## Children's Privacy
 
-Our services are not directed to children under 13. We do not knowingly collect personal information from children under 13. If we become aware of such collection, we will promptly delete the information. If you believe a child has provided us with personal information, contact privacy@arres.ai.
+Our services are not directed to children under 13. We do not knowingly collect personal information from children under 13. If we become aware of such collection, we will promptly delete the information. If you believe a child has provided us with personal information, contact arres@arres.ai.
 
 ## Changes to This Policy
 
@@ -86,7 +86,7 @@ We may update this policy. For material changes, we will provide notice via emai
 ## Contact
 
 **Arres.ai**  
-Email: privacy@arres.ai  
+Email: arres@arres.ai  
 Address: Oregon, USA
 
 For EU/EEA residents, you may also lodge a complaint with your local data protection authority.

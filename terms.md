@@ -55,7 +55,7 @@ We will notify you of any such claim and may, at our expense, assist in the defe
 ## 7. Dispute Resolution
 
 ### 7.1 Informal Resolution
-Before filing any claim, you agree to attempt to resolve disputes informally by contacting legal@arres.ai. We will attempt to resolve disputes within 30 days.
+Before filing any claim, you agree to attempt to resolve disputes informally by contacting arres@arres.ai. We will attempt to resolve disputes within 30 days.
 
 ### 7.2 Arbitration
 If informal resolution fails, disputes shall be resolved by binding arbitration under the rules of the American Arbitration Association. Arbitration shall occur in Oregon, USA, or another mutually agreed location.
@@ -100,12 +100,12 @@ You may not assign these terms without our consent. We may assign our rights wit
 Neither party is liable for delays or failures due to circumstances beyond reasonable control, including natural disasters, war, terrorism, labor disputes, government actions, or internet/infrastructure failures.
 
 ### 11.6 Notices
-Notices to you will be sent to the email address associated with your account. Notices to us should be sent to legal@arres.ai.
+Notices to you will be sent to the email address associated with your account. Notices to us should be sent to arres@arres.ai.
 
 ## 12. Contact
 
 **Arres.ai**  
-Email: legal@arres.ai  
+Email: arres@arres.ai  
 Address: Oregon, USA
 
 ---
