@@ -1,4 +1,4 @@
-# Arres.AI
+![Arres.ai](logo.png)
 
 α∃. 💎
 
